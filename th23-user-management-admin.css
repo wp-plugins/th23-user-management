@@ -1,0 +1,56 @@
+/* version coloring - needs to be hardcoded in php style tags for plugin overview page */
+.th23-user-management-admin-basic {
+	font-style: italic;
+}
+.th23-user-management-admin-professional {
+	color: #336600;
+	font-weight: bold;
+	font-style: italic;
+}
+
+/* admin upgrade and feedback notices */
+div.th23-user-management-admin-notice-upgrade {
+	background-repeat: no-repeat;
+	background-position: bottom right;
+	background-size: 33%;
+}
+div.th23-user-management-admin-notice-upgrade ul {
+	list-style: inside none disc;
+	padding-left: 1em;
+}
+a.th23-user-management-admin-notice-upgrade,
+a.th23-user-management-admin-about-upgrade {
+	color: #CC3333;
+	font-weight: bold;
+}
+div.th23-user-management-admin-about p {
+	padding-right: 300px;
+}
+div.th23-user-management-admin-about-feedback {
+	position: relative;
+	float: right;
+	top: -100px;
+	margin-bottom: -100px;
+}
+div.th23-user-management-admin-about-upgrade {
+	position: relative;
+	float: right;
+	top: -65px;
+	margin-bottom: -70px;
+}
+
+/* settings */
+img.th23-user-management-admin-icon {
+	float: left;
+	margin-right: 10px;
+}
+th.th23-user-management-admin-section {
+	font-size: 1.3em;
+}
+
+/* edit user screen for pending registrations */
+.th23-user-management-admin.approval-link {
+	display: inline;
+	color: #336600;
+	font-weight: bold;
+}

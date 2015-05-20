@@ -1,0 +1,159 @@
+.th23-user-management-form form p {
+	margin-bottom: .5em;
+}
+
+.th23-user-management-form #profileform p,
+.th23-user-management-form #subscriptionsform p {
+	padding-left: 1em;
+}
+
+.th23-user-management-form form p:last-child {
+	margin-top: .9em;
+	margin-bottom: 1em;
+}
+
+.th23-user-management-form .description {
+	color: #666666;
+	font-style: italic;
+}
+
+/* password strength meter */
+.th23-user-management-form #pass-strength-indicator {
+	display: none;
+}
+.th23-user-management-form #pass-strength-result {
+	background-color: #EEEEEE;
+	color: #373737;
+	text-align: center;
+}
+.th23-user-management-form #pass-strength-result.short {
+	background-color: #FFA0A0;
+}
+.th23-user-management-form #pass-strength-result.bad {
+	background-color: #FFB78C;
+}
+.th23-user-management-form #pass-strength-result.good {
+	background-color: #FFEC8B;
+}
+.th23-user-management-form #pass-strength-result.strong {
+	background-color: #C3FF88;
+}
+
+/* captcha */
+.th23-user-management-form #captcha-what-why {
+	position: relative;
+	cursor: help;
+}
+.th23-user-management-form #captcha-what-why span {
+	display: none;
+	position: absolute;
+	z-index: 1;
+	right: 0;
+	width: 300px;
+	background-color: rgba(250, 250, 250, 0.96);
+	border: 1px solid #CCCCCC;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	border-radius: 3px;
+	padding: 5px;
+	color: #000000;
+	text-decoration: none;
+	-moz-box-shadow: 2px 2px 4px rgba(150, 150, 150, 0.4);
+	-webkit-box-shadow: 2px 2px 4px rgba(150, 150, 150, 0.4);
+	box-shadow: 2px 2px 4px rgba(150, 150, 150, 0.4);
+}
+.th23-user-management-form #captcha-what-why:hover span {
+	display: block;
+	text-decoration: none;
+}
+
+/* buttons at the bottom */
+.th23-user-management-form div.submit {
+	margin-top: 1.5em;
+}
+
+/*  */
+.th23-user-management-form-note {
+	margin-top: 10px;
+}
+
+/* copright notice */
+.th23-user-management-form-copy {
+	margin: 3em 0px 0px;
+	text-align: right; 
+	color: #666666; 
+	text-decoration: none;
+}
+.th23-user-management-form-copy a {
+	color: #CC0000;
+	text-decoration: none;
+	font-weight: bold;
+}
+
+/* messages */
+.th23-user-management-message {
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	border-radius: 3px;
+	border: 1px solid;
+	margin: 0 0 10px;
+	padding: 12px;
+	color: #000000;
+}
+span.th23-user-management-message {
+	display: inline-block;
+}
+.th23-user-management-message.error {
+	background-color: #FFEBE8;
+	border-color: #CC0000;
+}
+.th23-user-management-message.info {
+	background-color: #FFFFE0;
+	border-color: #E6DB55;
+}
+.th23-user-management-message.success {
+	background-color: #E6FFBF;
+	border-color: #009100;
+}
+
+/* overlay messages */
+#th23-user-management-omsg {
+	z-index: 10000;
+	position: absolute;
+	top: 50px;
+	left: 35%;
+	width: 30%; /* doesn't work properly via CSS file -> hardcoded in PHP file! */
+	opacity: .92;
+	filter:Alpha(Opacity=92)
+	-moz-box-shadow: 0 0 15px #222;
+	-webkit-box-shadow: 0 0 15px #222;
+	box-shadow: 0 0 15px #222;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	border-radius: 5px;
+}
+#th23-user-management-omsg .headline .title {
+	float: left; 
+	font-weight: bold; 
+	margin-bottom: 6px;
+}
+#th23-user-management-omsg .headline .close {
+	width: 16px;
+	height: 16px;
+	background: url('img/close-16x16.png') no-repeat center center transparent;
+	float: right;
+	cursor: pointer;
+}
+#th23-user-management-omsg .message {
+	clear: both; 
+	border-top: 1px solid #444444; 
+	padding-top: 12px;
+}
+
+/* widget */
+.th23-user-management-widget-form li {
+	list-style: outside none none;
+}
+.th23-user-management-widget-form input {
+	margin-bottom: 0.5em;
+}
