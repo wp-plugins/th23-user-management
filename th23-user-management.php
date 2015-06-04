@@ -3,7 +3,7 @@
 Plugin Name: th23 User Management
 Plugin URI: http://th23.net/th23-user-management/
 Description: User management activities (login, profile changes, register, lost password) can be done via the themed frontend of your website. Access for user groups to unstyled admin area can be restricted and "wp-login.php" can be disabled. Users will only see the nicely styled side of your page :-) Add options for user chosen password upon registration including initial e-mail validation and approval for new registrations by administrator. Option to use reCaptcha to prevent spam and bots upon registration, lost password and login. Introduce e-mail re-validation upon changes. Note: Some options are limited in the Basic version!
-Version: 2.0.0
+Version: 2.0.1
 Author: Thorsten Hartmann (th23)
 Author URI: http://th23.net/
 Text Domain: th23_user_management
