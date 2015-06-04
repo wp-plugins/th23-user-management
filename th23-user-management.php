@@ -21,6 +21,12 @@ This license and terms apply for the Basic part of this program as distributed, 
 
 HISTORY
 
+= v2.0.1 =
+* [Enhancement] Adapted widget HTML to take up CSS styling from current theme in more cases easily - added "widget_meta" class
+* [Fix] Fixed encoding and user login value bug on links send by mail for some language/ plugin/ theme combinations
+* [Fix] Fixed small spelling errors "profil" and inconsistencies in spelling "login", "registration", ...
+* [Fix] Ensure admin panel preserves settings, when Professional version is disabled
+
 = v2.0.0 (public release) =
 * [Enhancement] Renaming from previously "th23 Frontent User Management"
 * [Enhancement] Complete rebuild of plugin structure, including transfer into class
@@ -34,9 +40,9 @@ HISTORY
 * [Enhancement] Upgrade to latest reCaptcha version - API v2
 * [Enhancement] Show more desciptive title for pages, e.g. "Login", "Your Profile", ... instead of "User Management"
 * [Enhancement] Add "Logout of all other sessions" function on user management page
-* [Bug] Fixed proper removal of page upon deactivation (required remove_action from post deletion hook to be successful)
-* [Bug] Removed security through obscurity from "user_login" field upon registration to ensure password strength indicator works correctly
-* [Bug] Prevent usage of "&" in user e-mail - as it causes issues upon storage, already in standard WordPress installation
+* [Fix] Fixed proper removal of page upon deactivation (required remove_action from post deletion hook to be successful)
+* [Fix] Removed security through obscurity from "user_login" field upon registration to ensure password strength indicator works correctly
+* [Fix] Prevent usage of "&" in user e-mail - as it causes issues upon storage, already in standard WordPress installation
 
 = v1.6.0 =
 * [Enhancement] Add nonce check to all forms - prevent automated attacks
@@ -44,7 +50,7 @@ HISTORY
 * [Enhancement] Add password strength indicator
 * [Enhancement] reCAPTCHA implementation upon registration, lostpassword and (after x failed) login attempts
 * [Enhancement] Change of email address via profile requires confirmation
-* [Bug] Generate new activation key every time user is requesting a password reset
+* [Fix] Generate new activation key every time user is requesting a password reset
 
 = v1.4.0 =
 * [Enhancement] Simple Local Avatar plugin integration for professional version
@@ -783,7 +789,7 @@ class th23_user_management {
 			$mail_text .= sprintf(__('Your username: %s', $this->plugin), $new_user->user_login) . "\r\n";
 			$mail_text .= sprintf(__('Your password: %s', $this->plugin), $new_user_pass) . "\r\n\r\n";
 			$mail_text .= __('You can now login using your username and passwort above. Therefore please visit the following address:', $this->plugin) . "\r\n";
-			$mail_text .= esc_url($this->user_management_url('login&log=' . esc_attr($new_user->user_login))) . "\r\n\r\n";
+			$mail_text .= esc_url_raw($this->user_management_url('login&log=' . esc_attr($new_user->user_login))) . "\r\n\r\n";
 			if(!wp_mail($new_user->user_email, $mail_title, $mail_text)) {
 				$this->data['msg'][] = array('type' => 'error', 'text' => __('You have been registered, but the required mail could not be sent due to a server error. Please contact the administrator of this site', $this->plugin));
 			}

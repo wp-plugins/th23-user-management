@@ -196,7 +196,7 @@ class th23_user_management_admin extends th23_user_management_pro {
 		// === UPDATE ===
 
 		// Do update of plugin options if required
-		if(isset($_POST[$this->slug . '-options-submit'])) {
+		if(isset($_POST[$this->slug . '-options-do'])) {
 			check_admin_referer($this->plugin . '_settings', $this->slug . '-settings-nonce');
 			$new_options = $this->get_options(array(), true);
 			// IMPORTANT: Keep page_id static, as instanciated upon activation!
@@ -239,9 +239,10 @@ class th23_user_management_admin extends th23_user_management_pro {
 
 		// === SETTINGS ===
 		
-		$disabled = ($this->pro) ? '' : ' disabled="disabled"';
-		
-		echo '<form method="post" action="' . esc_url($this->settings_base_url) . '">';
+		$disabled_prop = ($this->pro) ? '' : ' disabled="disabled"';
+		$disabled_class = ($this->pro) ? '' : ' disabled';
+
+		echo '<form method="post" id="' . $this->slug . '-options" action="' . esc_url($this->settings_base_url) . '">';
 		echo '<table class="form-table"><tbody>';
 
 		echo '<tr valign="top"><th class="' . $this->slug . '-admin-section" colspan="2">' . __('General', $this->plugin) . '</th></tr>';
@@ -257,7 +258,7 @@ class th23_user_management_admin extends th23_user_management_pro {
 		// admin_access
 		echo '<tr valign="top">';
 		echo ' <th scope="row"><label for="admin_access">' . __('Access to admin area for', $this->plugin) . '</label></th>';
-		echo ' <td><select class="postform" id="admin_access" name="admin_access"' . $disabled . '>';
+		echo ' <td><select class="postform' . $disabled_class . '" id="admin_access" name="admin_access"' . $disabled_prop . '>';
 		$options = array(
 			'install_themes' => __('Admins only', $this->plugin),
 			'edit_others_posts' => __('Admins and Editors only', $this->plugin),
@@ -274,7 +275,7 @@ class th23_user_management_admin extends th23_user_management_pro {
 		// admin_bar
 		echo '<tr valign="top">';
 		echo ' <th scope="row"><label for="admin_bar">' . __('Show admin bar for', $this->plugin) . '</label></th>';
-		echo ' <td><select class="postform" id="admin_bar" name="admin_bar"' . $disabled . '>';
+		echo ' <td><select class="postform' . $disabled_class . '" id="admin_bar" name="admin_bar"' . $disabled_prop . '>';
 		$options = array(
 			'admin_access' => __('Groups having access to the admin area only [recommended]', $this->plugin),
 			'install_themes' => __('Admins only', $this->plugin),
@@ -293,7 +294,7 @@ class th23_user_management_admin extends th23_user_management_pro {
 		// allow_wplogin
 		echo '<tr valign="top">';
 		echo ' <th scope="row">' . __('Allow <code>wp-login.php</code>', $this->plugin) . '</th>';
-		echo ' <td><fieldset><label for="allow_wplogin"><input type="checkbox" value="1" id="allow_wplogin" name="allow_wplogin"' . (($this->options['allow_wplogin']) ? ' checked="checked"' : '') . $disabled . '/> ' . __('Allow access to <code>wp-login.php</code>', $this->plugin) . '</label><br /><span class="description">' . __('<strong>Warning</strong>: Allowing access to <code>wp-login.php</code> allows users to circumvent some settings below, e.g. mail validation, admin approval, captcha - it is <strong>strongly recomended to leave this unchecked</strong>!', $this->plugin) . '</span></fieldset></td>';
+		echo ' <td><fieldset><label for="allow_wplogin"><input type="checkbox" class="' . $disabled_class . '" value="1" id="allow_wplogin" name="allow_wplogin"' . (($this->options['allow_wplogin']) ? ' checked="checked"' : '') . $disabled_prop . '/> ' . __('Allow access to <code>wp-login.php</code>', $this->plugin) . '</label><br /><span class="description">' . __('<strong>Warning</strong>: Allowing access to <code>wp-login.php</code> allows users to circumvent some settings below, e.g. mail validation, admin approval, captcha - it is <strong>strongly recomended to leave this unchecked</strong>!', $this->plugin) . '</span></fieldset></td>';
 		echo '</tr>';
 
 		echo '<tr valign="top"><th class="' . $this->slug . '-admin-section" colspan="2">' . __('Registration', $this->plugin) . '</th></tr>';
@@ -310,13 +311,13 @@ class th23_user_management_admin extends th23_user_management_pro {
 		// password_user
 		echo '<tr valign="top"' . $sub_users_can_register_class . $sub_users_can_register . '>';
 		echo ' <th scope="row" style="padding-left: 20px;">' . __('Password selection', $this->plugin) . '</th>';
-		echo ' <td><fieldset><label for="password_user"><input type="checkbox" value="1" id="password_user" name="password_user"' . (($this->options['password_user']) ? ' checked="checked"' : '') . $disabled . '/> ' . __('Allow user to choose password upon registration - will require user to validate his mail address', $this->plugin) . '</label></fieldset></td>';
+		echo ' <td><fieldset><label for="password_user"><input type="checkbox" class="' . $disabled_class . '" value="1" id="password_user" name="password_user"' . (($this->options['password_user']) ? ' checked="checked"' : '') . $disabled_prop . '/> ' . __('Allow user to choose password upon registration - will require user to validate his mail address', $this->plugin) . '</label></fieldset></td>';
 		echo '</tr>';
 
 		// user_approval
 		echo '<tr valign="top"' . $sub_users_can_register_class . $sub_users_can_register . '>';
 		echo ' <th scope="row" style="padding-left: 20px;">' . __('User approval', $this->plugin) . '</th>';
-		echo ' <td><fieldset><label for="user_approval"><input type="checkbox" value="1" id="user_approval" name="user_approval"' . (($this->options['user_approval']) ? ' checked="checked"' : '') . $disabled . '/> ' . __('Newly registered users require approval by an admin before being allowed to login', $this->plugin) . '</label></fieldset></td>';
+		echo ' <td><fieldset><label for="user_approval"><input type="checkbox" class="' . $disabled_class . '" value="1" id="user_approval" name="user_approval"' . (($this->options['user_approval']) ? ' checked="checked"' : '') . $disabled_prop . '/> ' . __('Newly registered users require approval by an admin before being allowed to login', $this->plugin) . '</label></fieldset></td>';
 		echo '</tr>';
 
 		$sub_user_approval_class = ($this->pro) ? ' class="user-approval-settings"' : '';
@@ -325,7 +326,7 @@ class th23_user_management_admin extends th23_user_management_pro {
 		// registration_question
 		echo '<tr valign="top"' . $sub_user_approval_class . $sub_user_approval . '>';
 		echo ' <th scope="row" style="padding-left: 40px;"><label for="registration_question">' . __('Registration question', $this->plugin) . '</label></th>';
-		echo ' <td><input type="text" class="regular-text" value="' . esc_attr($this->options['registration_question']) . '" id="registration_question" name="registration_question"' . $disabled . '/><br /><span class="description">' . __('Question to request additional information from users upon registration, e.g. "How did you find out about this page?" to determine if the request for approving a newly registered user is valid or should be denied - leave empty to not show any question', $this->plugin) . '</span></td>';
+		echo ' <td><input type="text" class="regular-text' . $disabled_class . '" value="' . esc_attr($this->options['registration_question']) . '" id="registration_question" name="registration_question"' . $disabled_prop . '/><br /><span class="description">' . __('Question to request additional information from users upon registration, e.g. "How did you find out about this page?" to determine if the request for approving a newly registered user is valid or should be denied - leave empty to not show any question', $this->plugin) . '</span></td>';
 		echo '</tr>';
 		
 		// default_role
@@ -339,7 +340,7 @@ class th23_user_management_admin extends th23_user_management_pro {
 		// approver_mail
 		echo '<tr valign="top"' . $sub_user_approval_class . $sub_user_approval . '>';
 		echo ' <th scope="row" style="padding-left: 40px;"><label for="approver_mail">' . __('Approver e-mail', $this->plugin) . '</label></th>';
-		echo ' <td><input type="text" class="regular-text" value="' . esc_attr($this->options['approver_mail']) . '" id="approver_mail" name="approver_mail"' . $disabled . '/><br /><span class="description">' . __('Provide mail address of the approver, to receive notification mails on each new user registration pending approval - leave empty to receive no notifications', $this->plugin) . '</span></td>';
+		echo ' <td><input type="text" class="regular-text" value="' . esc_attr($this->options['approver_mail']) . '" id="approver_mail" name="approver_mail"' . $disabled_prop . '/><br /><span class="description">' . __('Provide mail address of the approver, to receive notification mails on each new user registration pending approval - leave empty to receive no notifications', $this->plugin) . '</span></td>';
 		echo '</tr>';
 		
 		echo '<tr valign="top"><th class="' . $this->slug . '-admin-section" colspan="2">' . __('Security', $this->plugin) . '</th></tr>';
@@ -347,7 +348,7 @@ class th23_user_management_admin extends th23_user_management_pro {
 		// captcha
 		echo '<tr valign="top">';
 		echo ' <th scope="row">' . __('Enable <i>reCaptcha</i>', $this->plugin) . '</th>';
-		echo ' <td><fieldset><label for="captcha"><input type="checkbox" value="1" id="captcha" name="captcha"' . (($this->options['captcha']) ? ' checked="checked"' : '') . $disabled . '/> ' . __('Enable usage of <i>reCaptcha</i> for better protection against spam and bot registrations - Note: This is a service provided by <i>Google</i> and requires <a href="https://www.google.com/recaptcha/intro/index.html">signing up for a free key</a>', $this->plugin) . '</label></fieldset></td>';
+		echo ' <td><fieldset><label for="captcha"><input type="checkbox" class="' . $disabled_class . '" value="1" id="captcha" name="captcha"' . (($this->options['captcha']) ? ' checked="checked"' : '') . $disabled_prop . '/> ' . __('Enable usage of <i>reCaptcha</i> for better protection against spam and bot registrations - Note: This is a service provided by <i>Google</i> and requires <a href="https://www.google.com/recaptcha/intro/index.html">signing up for a free key</a>', $this->plugin) . '</label></fieldset></td>';
 		echo '</tr>';
 
 		$sub_captcha_class = ($this->pro) ? ' class="captcha-settings"' : '';
@@ -356,38 +357,39 @@ class th23_user_management_admin extends th23_user_management_pro {
 		// captcha_public
 		echo '<tr valign="top"' . $sub_captcha_class . $sub_captcha . '>';
 		echo ' <th scope="row" style="padding-left: 20px;"><label for="captcha_public">' . __('Public key', $this->plugin) . '</label></th>';
-		echo ' <td><input type="text" class="regular-text" value="' . esc_attr($this->options['captcha_public']) . '" id="captcha_public" name="captcha_public"' . $disabled . '/><br /><span class="description">' . __('Required, public <i>reCaptcha</i> key - see above link to obtain a key', $this->plugin) . '</span></td>';
+		echo ' <td><input type="text" class="regular-text' . $disabled_class . '" value="' . esc_attr($this->options['captcha_public']) . '" id="captcha_public" name="captcha_public"' . $disabled_prop . '/><br /><span class="description">' . __('Required, public <i>reCaptcha</i> key - see above link to obtain a key', $this->plugin) . '</span></td>';
 		echo '</tr>';
 
 		// captcha_private
 		echo '<tr valign="top"' . $sub_captcha_class . $sub_captcha . '>';
 		echo ' <th scope="row" style="padding-left: 20px;"><label for="captcha_private">' . __('Private key', $this->plugin) . '</label></th>';
-		echo ' <td><input type="text" class="regular-text" value="' . esc_attr($this->options['captcha_private']) . '" id="captcha_private" name="captcha_private"' . $disabled . '/><br /><span class="description">' . __('Required, private <i>reCaptcha</i> key - see above link to obtain a key', $this->plugin) . '</span></td>';
+		echo ' <td><input type="text" class="regular-text' . $disabled_class . '" value="' . esc_attr($this->options['captcha_private']) . '" id="captcha_private" name="captcha_private"' . $disabled_prop . '/><br /><span class="description">' . __('Required, private <i>reCaptcha</i> key - see above link to obtain a key', $this->plugin) . '</span></td>';
 		echo '</tr>';
 
 		// captcha_register
 		echo '<tr valign="top"' . $sub_captcha_class . $sub_captcha . '>';
 		echo ' <th scope="row" style="padding-left: 20px;">' . __('Use captcha upon registration', $this->plugin) . '</th>';
-		echo ' <td><fieldset><label for="captcha_register"><input type="checkbox" value="1" id="captcha_register" name="captcha_register"' . (($this->options['captcha_register']) ? ' checked="checked"' : '') . $disabled . '/> ' . __('Users need to solve a captcha upon registering for a new account', $this->plugin) . '</label></fieldset></td>';
+		echo ' <td><fieldset><label for="captcha_register"><input type="checkbox" class="' . $disabled_class . '" value="1" id="captcha_register" name="captcha_register"' . (($this->options['captcha_register']) ? ' checked="checked"' : '') . $disabled_prop . '/> ' . __('Users need to solve a captcha upon registering for a new account', $this->plugin) . '</label></fieldset></td>';
 		echo '</tr>';
 
 		// captcha_lostpassword
 		echo '<tr valign="top"' . $sub_captcha_class . $sub_captcha . '>';
 		echo ' <th scope="row" style="padding-left: 20px;">' . __('Use captcha upon lost password', $this->plugin) . '</th>';
-		echo ' <td><fieldset><label for="captcha_lostpassword"><input type="checkbox" value="1" id="captcha_lostpassword" name="captcha_lostpassword"' . (($this->options['captcha_lostpassword']) ? ' checked="checked"' : '') . $disabled . '/> ' . __('Users need to solve a captcha upon requesting a password reset', $this->plugin) . '</label></fieldset></td>';
+		echo ' <td><fieldset><label for="captcha_lostpassword"><input type="checkbox" class="' . $disabled_class . '" value="1" id="captcha_lostpassword" name="captcha_lostpassword"' . (($this->options['captcha_lostpassword']) ? ' checked="checked"' : '') . $disabled_prop . '/> ' . __('Users need to solve a captcha upon requesting a password reset', $this->plugin) . '</label></fieldset></td>';
 		echo '</tr>';
 
 		// captcha_login
 		echo '<tr valign="top"' . $sub_captcha_class . $sub_captcha . '>';
 		echo ' <th scope="row" style="padding-left: 20px;"><label for="captcha_login">' . __('Use captcha upon login', $this->plugin) . '</label></th>';
-		echo ' <td><input type="text" class="small-text" value="' . esc_attr($this->options['captcha_login']) . '" id="captcha_login" name="captcha_login"' . $disabled . '/><br /><span class="description">' . __('Specify at which attempt (unsuccessful, in a row) users need to solve a captcha upon login - set to \'0\' to disable, set to e.g. \'4\' for allowing three attempts without captcha', $this->plugin) . '</span></td>';
+		echo ' <td><input type="text" class="small-text' . $disabled_class . '" value="' . esc_attr($this->options['captcha_login']) . '" id="captcha_login" name="captcha_login"' . $disabled_prop . '/><br /><span class="description">' . __('Specify at which attempt (unsuccessful, in a row) users need to solve a captcha upon login - set to \'0\' to disable, set to e.g. \'4\' for allowing three attempts without captcha', $this->plugin) . '</span></td>';
 		echo '</tr>';
 
 		echo '</tbody></table>';
 		echo '<br/>';
 		
 		// submit
-		echo '<input type="submit" name="' . $this->slug . '-options-submit" class="button-primary" value="' . esc_attr(__('Save Changes')) . '"/>';
+		echo '<input type="hidden" name="' . $this->slug . '-options-do" value=""/>';
+		echo '<input type="button" id="' . $this->slug . '-options-submit" class="button-primary" value="' . esc_attr(__('Save Changes')) . '"/>';
 		wp_nonce_field($this->plugin . '_settings', $this->slug . '-settings-nonce');
 		
 		echo '</form>';

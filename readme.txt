@@ -4,7 +4,7 @@ Donate link: http://th23.net/th23-user-management
 Tags: user management, frontend, customized, styled, login, logout, wp-login, admin access, register, registration, sign-up, chose password, user password, user approval, approve, edit profile, manage profile, user profile, captcha, recaptcha, spam, bots
 Requires at least: 3.8.0
 Tested up to: 4.2.2
-Stable tag: 2.0.0
+Stable tag: 2.0.1
 License: GPLv2 only
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -61,6 +61,12 @@ In case you have a question or any feedback, please use the support section here
 
 == Changelog ==
 
+= v2.0.1 =
+* [Enhancement] Adapted widget HTML to take up CSS styling from current theme in more cases easily - added "widget_meta" class
+* [Fix] Fixed encoding and user login value bug on links send by mail for some language/ plugin/ theme combinations
+* [Fix] Fixed small spelling errors "profil" and inconsistencies in spelling "login", "registration", ...
+* [Fix] Ensure admin panel preserves settings, when Professional version is disabled
+
 = v2.0.0 (public release) =
 * [Enhancement] Renaming from previously "th23 Frontent User Management"
 * [Enhancement] Complete rebuild of plugin structure, including transfer into class
@@ -74,9 +80,9 @@ In case you have a question or any feedback, please use the support section here
 * [Enhancement] Upgrade to latest reCaptcha version - API v2
 * [Enhancement] Show more desciptive title for pages, e.g. "Login", "Your Profile", ... instead of "User Management"
 * [Enhancement] Add "Logout of all other sessions" function on user management page
-* [Bug] Fixed proper removal of page upon deactivation (required remove_action from post deletion hook to be successful)
-* [Bug] Removed security through obscurity from "user_login" field upon registration to ensure password strength indicator works correctly
-* [Bug] Prevent usage of "&" in user e-mail - as it causes issues upon storage, already in standard WordPress installation
+* [Fix] Fixed proper removal of page upon deactivation (required remove_action from post deletion hook to be successful)
+* [Fix] Removed security through obscurity from "user_login" field upon registration to ensure password strength indicator works correctly
+* [Fix] Prevent usage of "&" in user e-mail - as it causes issues upon storage, already in standard WordPress installation
 
 = v1.6.0 =
 * [Enhancement] Add nonce check to all forms - prevent automated attacks
@@ -84,7 +90,7 @@ In case you have a question or any feedback, please use the support section here
 * [Enhancement] Add password strength indicator
 * [Enhancement] reCAPTCHA implementation upon registration, lostpassword and (after x failed) login attempts
 * [Enhancement] Change of email address via profile requires confirmation
-* [Bug] Generate new activation key every time user is requesting a password reset
+* [Fix] Generate new activation key every time user is requesting a password reset
 
 = v1.4.0 =
 * [Enhancement] Simple Local Avatar plugin integration for professional version
@@ -97,6 +103,10 @@ In case you have a question or any feedback, please use the support section here
 * n/a
 
 == Upgrade Notice ==
+
+= v2.0.1 =
+Please upgrade to this version to ensure links sent via mail to users contain correct character encoding!
+*** Professional users, please get an updated version of the "pro" file as well! ***
 
 = v2.0.0 (public release) =
 First public release - you should get this one ;-)
