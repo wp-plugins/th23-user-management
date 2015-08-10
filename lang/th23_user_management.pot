@@ -1,0 +1,1335 @@
+# WordPress Blank Pot
+# Copyright (C) 2014 ...
+# This file is distributed under the GNU General Public License v2 or later.
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: th23 User Management - v2.0.0\n"
+"POT-Creation-Date: 2015-06-03 13:55+0100\n"
+"PO-Revision-Date: \n"
+"Last-Translator: Your Name <you@example.com>\n"
+"Language-Team: Your Team <translations@example.com>\n"
+"Report-Msgid-Bugs-To: Translator Name <translations@example.com>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Textdomain-Support: yesX-Generator: Poedit 1.6.4\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;esc_html_e;esc_html_x:1,2c;esc_html__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_attr__;_ex:1,2c;_nx:4c,1,2;_nx_noop:4c,1,2;"
+"_x:1,2c;_n:1,2;_n_noop:1,2;__ngettext:1,2;__ngettext_noop:1,2;_c,"
+"_nc:4c,1,2\n"
+"X-Poedit-Basepath: E:\\Subversion\\th23-user-management\\tags\\2.0.0\\\n"
+"Language: en_US\n"
+"X-Generator: Poedit 1.8.1\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: th23-user-management-admin.php:60 th23-user-management-pro.php:721
+#: th23-user-management-pro.php:724
+msgid "Pending"
+msgstr ""
+
+#: th23-user-management-admin.php:79 th23-user-management.php:1085
+msgid "User Management"
+msgstr ""
+
+#: th23-user-management-admin.php:81
+msgid ""
+"<h2><strong>You can NOT delete this page!</strong></h2><p>This page "
+"belongs to the <a href=\"http://th23.net/"
+msgstr ""
+
+#: th23-user-management-admin.php:128 th23-user-management-admin.php:398
+msgid "Professional"
+msgstr ""
+
+#: th23-user-management-admin.php:131 th23-user-management-admin.php:402
+#: th23-user-management-admin.php:403
+msgid "Get additional functionality"
+msgstr ""
+
+#: th23-user-management-admin.php:131 th23-user-management-admin.php:402
+msgid "Upgrade to <i>Professional</i> version"
+msgstr ""
+
+#: th23-user-management-admin.php:132 th23-user-management-admin.php:402
+msgid "Basic"
+msgstr ""
+
+#: th23-user-management-admin.php:138
+#, php-format
+msgid ""
+"<strong>Warning</strong>: This plugin might not work properly on your "
+"installation - please check <a href=\"%s\">Settings page</a> for details"
+msgstr ""
+
+#: th23-user-management-admin.php:142
+#, php-format
+msgid ""
+"<strong>Error</strong>: The version of the <strong><i>Professional</i></"
+"strong> file (<i>%s-pro.php</i>, version %s) does not match with the "
+"overall plugin (version %s) - please make sure you update the overall "
+"plugin to the latest version e.g. via the <a href=\"update-core.php"
+"\">automatic update function</a> and upload the latest version of the "
+"<strong><i>Professional</i></strong> file from <a href=\"http://th23.net/"
+"%s/\">th23.net</a> onto your webserver"
+msgstr ""
+
+#: th23-user-management-admin.php:146 th23-user-management.php:974
+msgid "Settings"
+msgstr ""
+
+#: th23-user-management-admin.php:169 th23-user-management-pro.php:739
+msgid "Approve"
+msgstr ""
+
+#: th23-user-management-admin.php:188
+msgid "Warning"
+msgstr ""
+
+#: th23-user-management-admin.php:188
+msgid ""
+"This plugin is not designed to work on a multisite setup - it is "
+"recommended not to use this plugin in such an environment"
+msgstr ""
+
+#: th23-user-management-admin.php:193
+msgid ""
+"You are currently using the free version of this plugin, in which we "
+"support a lot of very useful features to give your users a better feel "
+"browsing your site. To even improve that experience further, there is a "
+"<strong><i>Professional</i></strong> version available adding some "
+"equally useful features:"
+msgstr ""
+
+#: th23-user-management-admin.php:193
+msgid ""
+"<strong>All user management actions available on frontend</strong> styled "
+"according to theme - including profile changes, lost password, reset "
+"password"
+msgstr ""
+
+#: th23-user-management-admin.php:193
+msgid ""
+"<strong>Access to the unstyled admin area can be restricted</strong> "
+"based on user groups - \"wp-login.php\" can be disabled completely"
+msgstr ""
+
+#: th23-user-management-admin.php:193
+msgid ""
+"<strong>User chosen password upon registration</strong> option available "
+"- including initial e-mail validation"
+msgstr ""
+
+#: th23-user-management-admin.php:193
+msgid ""
+"<strong>Admin approval for new users</strong> option available - before "
+"user can login"
+msgstr ""
+
+#: th23-user-management-admin.php:193
+msgid ""
+"<strong>Use reCaptcha against spam and bots</strong> upon registration, "
+"lost password and login"
+msgstr ""
+
+#: th23-user-management-admin.php:193
+msgid "Introduction of e-mail re-validation upon changes of address"
+msgstr ""
+
+#: th23-user-management-admin.php:193
+#, php-format
+msgid ""
+"Get all these additional features - %supgrade to the <i>Professional</i> "
+"version today%s"
+msgstr ""
+
+#: th23-user-management-admin.php:222 th23-user-management.php:235
+msgid "Done"
+msgstr ""
+
+#: th23-user-management-admin.php:222
+msgid "Settings saved"
+msgstr ""
+
+#: th23-user-management-admin.php:232 th23-user-management-admin.php:237
+#: th23-user-management.php:239
+msgid "Error"
+msgstr ""
+
+#: th23-user-management-admin.php:232
+msgid ""
+"No valid/ published user management page has been found - it was "
+"automatically attempted to create a new one, please refresh this page and "
+"see if the error persists"
+msgstr ""
+
+#: th23-user-management-admin.php:237
+msgid ""
+"reCAPTCHA requires a public and a private key to work - despite your "
+"settings it will be disabled until you define them, see settings below "
+"for information on how obtain these keys"
+msgstr ""
+
+#: th23-user-management-admin.php:247
+msgid "General"
+msgstr ""
+
+#: th23-user-management-admin.php:251
+msgid "Overlay message time"
+msgstr ""
+
+#: th23-user-management-admin.php:252
+msgid ""
+"Duration in seconds until overlay messages shown to the user upon login/ "
+"logout disappears automatically - set to '0' for no automatic "
+"disappearance - Note: Error messages will never disappear automatically"
+msgstr ""
+
+#: th23-user-management-admin.php:255
+msgid "Access"
+msgstr ""
+
+#: th23-user-management-admin.php:259
+msgid "Access to admin area for"
+msgstr ""
+
+#: th23-user-management-admin.php:262 th23-user-management-admin.php:280
+msgid "Admins only"
+msgstr ""
+
+#: th23-user-management-admin.php:263 th23-user-management-admin.php:281
+msgid "Admins and Editors only"
+msgstr ""
+
+#: th23-user-management-admin.php:264 th23-user-management-admin.php:282
+msgid "Admins, Editors and Authors only"
+msgstr ""
+
+#: th23-user-management-admin.php:265
+msgid "Admins, Editors, Authors and Contributors only [recommended]"
+msgstr ""
+
+#: th23-user-management-admin.php:266 th23-user-management-admin.php:284
+msgid ""
+"All registered users (Admins, Editors, Authors, Contributors and "
+"Subscribers) [WordPress default]"
+msgstr ""
+
+#: th23-user-management-admin.php:271
+msgid ""
+"Users not allowed to access the admin area will get an error message - "
+"forcing them to return to the home page of your site"
+msgstr ""
+
+#: th23-user-management-admin.php:276
+msgid "Show admin bar for"
+msgstr ""
+
+#: th23-user-management-admin.php:279
+msgid "Groups having access to the admin area only [recommended]"
+msgstr ""
+
+#: th23-user-management-admin.php:283
+msgid "Admins, Editors, Authors and Contributors only"
+msgstr ""
+
+#: th23-user-management-admin.php:285
+msgid "No one (disable admin bar)"
+msgstr ""
+
+#: th23-user-management-admin.php:290
+msgid ""
+"Defines which users will see the admin bar on the frontend of your site"
+msgstr ""
+
+#: th23-user-management-admin.php:295
+msgid "Allow <code>wp-login.php</code>"
+msgstr ""
+
+#: th23-user-management-admin.php:296
+msgid "Allow access to <code>wp-login.php</code>"
+msgstr ""
+
+#: th23-user-management-admin.php:296
+msgid ""
+"<strong>Warning</strong>: Allowing access to <code>wp-login.php</code> "
+"allows users to circumvent some settings below, e.g. mail validation, "
+"admin approval, captcha - it is <strong>strongly recomended to leave this "
+"unchecked</strong>!"
+msgstr ""
+
+#: th23-user-management-admin.php:299 th23-user-management.php:811
+msgid "Registration"
+msgstr ""
+
+#: th23-user-management-admin.php:303
+msgid "Membership"
+msgstr ""
+
+#: th23-user-management-admin.php:304
+msgid "New users can register"
+msgstr ""
+
+#: th23-user-management-admin.php:304
+msgid "This setting changes the standard defined under Settings - General"
+msgstr ""
+
+#: th23-user-management-admin.php:312
+msgid "Password selection"
+msgstr ""
+
+#: th23-user-management-admin.php:313
+msgid ""
+"Allow user to choose password upon registration - will require user to "
+"validate his mail address"
+msgstr ""
+
+#: th23-user-management-admin.php:318
+msgid "User approval"
+msgstr ""
+
+#: th23-user-management-admin.php:319
+msgid ""
+"Newly registered users require approval by an admin before being allowed "
+"to login"
+msgstr ""
+
+#: th23-user-management-admin.php:327
+msgid "Registration question"
+msgstr ""
+
+#: th23-user-management-admin.php:328
+msgid ""
+"Question to request additional information from users upon registration, "
+"e.g. \"How did you find out about this page?\" to determine if the "
+"request for approving a newly registered user is valid or should be "
+"denied - leave empty to not show any question"
+msgstr ""
+
+#: th23-user-management-admin.php:333
+msgid "New User Default Role"
+msgstr ""
+
+#: th23-user-management-admin.php:336
+msgid ""
+"In case admin approval is required for new users, they will be assigned "
+"to this selection after the approval has been granted by an admin!<br/"
+">This setting changes the standard defined under Settings - General"
+msgstr ""
+
+#: th23-user-management-admin.php:341
+msgid "Approver e-mail"
+msgstr ""
+
+#: th23-user-management-admin.php:342
+msgid ""
+"Provide mail address of the approver, to receive notification mails on "
+"each new user registration pending approval - leave empty to receive no "
+"notifications"
+msgstr ""
+
+#: th23-user-management-admin.php:345
+msgid "Security"
+msgstr ""
+
+#: th23-user-management-admin.php:349
+msgid "Enable <i>reCaptcha</i>"
+msgstr ""
+
+#: th23-user-management-admin.php:350
+msgid ""
+"Enable usage of <i>reCaptcha</i> for better protection against spam and "
+"bot registrations - Note: This is a service provided by <i>Google</i> and "
+"requires <a href=\"https://www.google.com/recaptcha/intro/index.html"
+"\">signing up for a free key</a>"
+msgstr ""
+
+#: th23-user-management-admin.php:358
+msgid "Public key"
+msgstr ""
+
+#: th23-user-management-admin.php:359
+msgid ""
+"Required, public <i>reCaptcha</i> key - see above link to obtain a key"
+msgstr ""
+
+#: th23-user-management-admin.php:364
+msgid "Private key"
+msgstr ""
+
+#: th23-user-management-admin.php:365
+msgid ""
+"Required, private <i>reCaptcha</i> key - see above link to obtain a key"
+msgstr ""
+
+#: th23-user-management-admin.php:370
+msgid "Use captcha upon registration"
+msgstr ""
+
+#: th23-user-management-admin.php:371
+msgid "Users need to solve a captcha upon registering for a new account"
+msgstr ""
+
+#: th23-user-management-admin.php:376
+msgid "Use captcha upon lost password"
+msgstr ""
+
+#: th23-user-management-admin.php:377
+msgid "Users need to solve a captcha upon requesting a password reset"
+msgstr ""
+
+#: th23-user-management-admin.php:382
+msgid "Use captcha upon login"
+msgstr ""
+
+#: th23-user-management-admin.php:383
+msgid ""
+"Specify at which attempt (unsuccessful, in a row) users need to solve a "
+"captcha upon login - set to '0' to disable, set to e.g. '4' for allowing "
+"three attempts without captcha"
+msgstr ""
+
+#: th23-user-management-admin.php:390
+msgid "Save Changes"
+msgstr ""
+
+#: th23-user-management-admin.php:399
+msgid "We like to hear your feedback..."
+msgstr ""
+
+#: th23-user-management-admin.php:405
+#, php-format
+msgid "Version %s"
+msgstr ""
+
+#: th23-user-management-admin.php:405
+#, php-format
+msgid "By %s"
+msgstr ""
+
+#: th23-user-management-admin.php:405
+msgid "Visit plugin site"
+msgstr ""
+
+#: th23-user-management-pro.php:55
+msgid "wp-login.php is disabled"
+msgstr ""
+
+#: th23-user-management-pro.php:55 th23-user-management-pro.php:63
+msgid "Failure Notice"
+msgstr ""
+
+#: th23-user-management-pro.php:63
+#, php-format
+msgid ""
+"Access to the admin area is restricted on this site!<br /><br />Please "
+"return to <a href=\"%1$s\">%2$s</a>"
+msgstr ""
+
+#: th23-user-management-pro.php:121
+msgid ""
+"Sorry, you do not seem to be human - please solve the captcha shown to "
+"proof otherwise"
+msgstr ""
+
+#: th23-user-management-pro.php:138
+msgid ""
+"Enhanced security measures - please enter your password again and solve "
+"the shown captcha to login"
+msgstr ""
+
+#: th23-user-management-pro.php:150
+msgid ""
+"You exceeded the maximum number of allowed login attempts - please enter "
+"your password again and solve the shown captcha to login"
+msgstr ""
+
+#: th23-user-management-pro.php:198 th23-user-management-pro.php:219
+#: th23-user-management-pro.php:239
+msgid "Captcha - please follow the instructions below"
+msgstr ""
+
+#: th23-user-management-pro.php:198 th23-user-management-pro.php:219
+#: th23-user-management-pro.php:239
+msgid ""
+"<strong>What?</strong> A captach is a small test aiming to distinguish "
+"humans from computers.<br /><strong>Why?</strong> Internet today needs to "
+"fight a lot of spam and this small test is required to keep this website "
+"clean."
+msgstr ""
+
+#: th23-user-management-pro.php:198 th23-user-management-pro.php:219
+#: th23-user-management-pro.php:239
+msgid "What? Why?"
+msgstr ""
+
+#: th23-user-management-pro.php:273 th23-user-management-pro.php:423
+#: th23-user-management-pro.php:775 th23-user-management-pro.php:1030
+#: th23-user-management-pro.php:1232 th23-user-management.php:986
+msgid "n/a"
+msgstr ""
+
+#: th23-user-management-pro.php:281
+msgid "Please define a password"
+msgstr ""
+
+#: th23-user-management-pro.php:285
+msgid "Password may not contain the character \"\\\""
+msgstr ""
+
+#: th23-user-management-pro.php:289
+msgid ""
+"The password confirmation does not match defined password, please try "
+"again"
+msgstr ""
+
+#: th23-user-management-pro.php:336
+#, php-format
+msgid "[%s] Welcome / Validate your e-mail"
+msgstr ""
+
+#: th23-user-management-pro.php:337 th23-user-management-pro.php:359
+#: th23-user-management.php:782
+#, php-format
+msgid "Welcome to %s and thanks for joining!"
+msgstr ""
+
+#: th23-user-management-pro.php:338 th23-user-management-pro.php:360
+#: th23-user-management-pro.php:673 th23-user-management-pro.php:1091
+#: th23-user-management.php:783
+#, php-format
+msgid "Your username: %s"
+msgstr ""
+
+#: th23-user-management-pro.php:339
+msgid ""
+"Your account is registered, but has to be activated by validating your e-"
+"mail address. Please confirm your e-mail address by visiting the "
+"following link:"
+msgstr ""
+
+#: th23-user-management-pro.php:343
+msgid ""
+"You have been registered, but the required verification mail could not be "
+"sent due to a server error. Please contact the administrator of this site"
+msgstr ""
+
+#: th23-user-management-pro.php:346
+msgid ""
+"You have been registered successfully - please check your inbox for a "
+"mail containing a link for validating your e-mail address"
+msgstr ""
+
+#: th23-user-management-pro.php:358 th23-user-management.php:781
+#, php-format
+msgid "[%s] Welcome / Your username and password"
+msgstr ""
+
+#: th23-user-management-pro.php:361 th23-user-management.php:784
+#, php-format
+msgid "Your password: %s"
+msgstr ""
+
+#: th23-user-management-pro.php:362
+msgid ""
+"Your registration is complete, but has to be approved by an "
+"administrator. You will receive another mail, once your registration has "
+"been approved and you can login using your username and passwort above."
+msgstr ""
+
+#: th23-user-management-pro.php:365
+msgid ""
+"You have been registered, but the required notification mail could not be "
+"sent due to a server error. Please contact the administrator of this site"
+msgstr ""
+
+#: th23-user-management-pro.php:368
+msgid ""
+"You have been registered successfully, but need approval by an "
+"administrator - please check your inbox for initial password to login "
+"afterwards"
+msgstr ""
+
+#: th23-user-management-pro.php:374 th23-user-management-pro.php:486
+#, php-format
+msgid "[%s] New user registration / Approval required"
+msgstr ""
+
+#: th23-user-management-pro.php:375
+#, php-format
+msgid ""
+"A user with the following details regsitered on your site \"%s\" and is "
+"pending your approval before being able to sign in:"
+msgstr ""
+
+#: th23-user-management-pro.php:376 th23-user-management-pro.php:488
+#, php-format
+msgid "Username: %s"
+msgstr ""
+
+#: th23-user-management-pro.php:377 th23-user-management-pro.php:489
+#, php-format
+msgid "E-mail: %s"
+msgstr ""
+
+#: th23-user-management-pro.php:379 th23-user-management-pro.php:491
+#, php-format
+msgid "Upon the registration question \"%s\" the user answered:"
+msgstr ""
+
+#: th23-user-management-pro.php:382 th23-user-management-pro.php:494
+msgid "Please visit the user management page for your actions:"
+msgstr ""
+
+#: th23-user-management-pro.php:386
+msgid ""
+"Notification of an administrator requesting approval for your "
+"registration could not be sent due to a server error. Please contact the "
+"administrator of this site"
+msgstr ""
+
+#: th23-user-management-pro.php:402
+msgid ""
+"A confirmation will be sent to the given e-mail address. Please click the "
+"link provided in there to validate your e-mail address."
+msgstr ""
+
+#: th23-user-management-pro.php:405
+msgid ""
+"New members require approval by an admin. You will only be able to login, "
+"once your registration has been approved."
+msgstr ""
+
+#: th23-user-management-pro.php:414 th23-user-management.php:474
+#: th23-user-management.php:1094
+msgid "Password"
+msgstr ""
+
+#: th23-user-management-pro.php:418
+msgid "Confirm password"
+msgstr ""
+
+#: th23-user-management-pro.php:422 th23-user-management-pro.php:1231
+#: th23-user-management.php:985
+msgid "Password strength indicator"
+msgstr ""
+
+#: th23-user-management-pro.php:455 th23-user-management-pro.php:932
+msgid ""
+"Validation of your e-mail address failed, the given user is invalid - "
+"please try again or contact the site administrator"
+msgstr ""
+
+#: th23-user-management-pro.php:463
+#, php-format
+msgid "Validated by User | %s | Mail link | IP: %s"
+msgstr ""
+
+#: th23-user-management-pro.php:464
+msgid "Your e-mail address has been validated"
+msgstr ""
+
+#: th23-user-management-pro.php:469
+msgid "Your e-mail address is already verified"
+msgstr ""
+
+#: th23-user-management-pro.php:472
+msgid ""
+"Validation of your e-mail address failed, the given validation key is "
+"invalid - please try again or contact the site administrator"
+msgstr ""
+
+#: th23-user-management-pro.php:480
+msgid ""
+"Your registration still requires approval by an admin - you will get a "
+"notification mail once your account is approved and you can log in"
+msgstr ""
+
+#: th23-user-management-pro.php:487
+#, php-format
+msgid ""
+"A user with the following details regsitered on your site \"%s\", "
+"validated his e-mail address and is pending your approval before being "
+"able to sign in:"
+msgstr ""
+
+#: th23-user-management-pro.php:498
+msgid ""
+"Notification to an administrator requesting approval for your "
+"registration could not be sent due to a server error. Please contact the "
+"administrator of this site"
+msgstr ""
+
+#: th23-user-management-pro.php:516
+msgid ""
+"Your registration is pending validation of your e-mail address - please "
+"click the link in the mail sent to you upon your registration or contact "
+"the site administrator"
+msgstr ""
+
+#: th23-user-management-pro.php:520
+msgid ""
+"Your registration is pending approval by a site administrator - please "
+"wait to be notified by mail or contact the site administrator"
+msgstr ""
+
+#: th23-user-management-pro.php:523
+msgid "Your registration is pending - please contact the site administrator"
+msgstr ""
+
+#: th23-user-management-pro.php:560
+#, php-format
+msgid "Created by Admin ID: %s | %s | IP: %s"
+msgstr ""
+
+#: th23-user-management-pro.php:563
+#, php-format
+msgid "Created by Admin ID: %s | %s | Approval | IP: %s"
+msgstr ""
+
+#: th23-user-management-pro.php:580
+#, php-format
+msgid ""
+"<strong>Attention</strong>: There are new users pending approval not "
+"shown in the list below - please view tab \"<a href=\"%s\">Pending</a>\" "
+"to review these users"
+msgstr ""
+
+#: th23-user-management-pro.php:661
+#, php-format
+msgid "Approved by Admin ID: %s | %s | IP: %s"
+msgstr ""
+
+#: th23-user-management-pro.php:666
+#, php-format
+msgid "Approved by Admin ID: %s | %s | Approval | IP: %s"
+msgstr ""
+
+#: th23-user-management-pro.php:670
+#, php-format
+msgid "[%s] Welcome / Ready for login"
+msgstr ""
+
+#: th23-user-management-pro.php:671
+#, php-format
+msgid ""
+"Welcome once again to %s - your registration has been approved and you "
+"can now login using the following link:"
+msgstr ""
+
+#: th23-user-management-pro.php:675
+msgid ""
+"Your password: As chosen by you upon registration - in case you can not "
+"remember, use the following link:"
+msgstr ""
+
+#: th23-user-management-pro.php:678
+msgid ""
+"Your password: As sent in a previous mail - in case you do not have this "
+"anymore, use the following link:"
+msgstr ""
+
+#: th23-user-management-pro.php:690
+#, php-format
+msgid ""
+"<strong>Error</strong>: An error occured, while sending notification to "
+"user with the ID: %s"
+msgstr ""
+
+#: th23-user-management-pro.php:693
+msgid "<strong>Done</strong>: Selected user(s) have been approved"
+msgstr ""
+
+#: th23-user-management-pro.php:708
+msgid "Role - Reason"
+msgstr ""
+
+#: th23-user-management-pro.php:711
+msgid "Answer to registration question"
+msgstr ""
+
+#: th23-user-management-pro.php:721
+msgid " - Mail validation"
+msgstr ""
+
+#: th23-user-management-pro.php:724
+msgid " - Admin approval"
+msgstr ""
+
+#: th23-user-management-pro.php:737
+msgid "Delete"
+msgstr ""
+
+#: th23-user-management-pro.php:794
+msgid "Action cancelled, no changes have been saved"
+msgstr ""
+
+#: th23-user-management-pro.php:809
+msgid "Invalid request - please use the form below to update your profile"
+msgstr ""
+
+#: th23-user-management-pro.php:857
+msgid "Your profile changes have been saved successfully"
+msgstr ""
+
+#: th23-user-management-pro.php:869
+msgid "Your password has been changed, please login again"
+msgstr ""
+
+#: th23-user-management-pro.php:895
+#, php-format
+msgid "[%s] Validate changed e-mail address"
+msgstr ""
+
+#: th23-user-management-pro.php:897
+#, php-format
+msgid "You changed the e-mail address for your account on %s."
+msgstr ""
+
+#: th23-user-management-pro.php:900
+#, php-format
+msgid "The e-mail address for your account on %s has been changed."
+msgstr ""
+
+#: th23-user-management-pro.php:902
+msgid ""
+"Please confirm your new e-mail address by visiting the following link:"
+msgstr ""
+
+#: th23-user-management-pro.php:905
+msgid ""
+"The required verification mail for changing the e-mail address could not "
+"be sent due to a server error. The new address has not been saved, please "
+"try again or contact the administrator of this site"
+msgstr ""
+
+#: th23-user-management-pro.php:908
+msgid ""
+"The change of your e-mail address requires confirmation - please check "
+"your new inbox and follow the validation link provided"
+msgstr ""
+
+#: th23-user-management-pro.php:940
+msgid ""
+"No pending change of e-mail could be found - please try again the link, "
+"try again to change your e-mail address or contact the site administrator"
+msgstr ""
+
+#: th23-user-management-pro.php:948
+msgid ""
+"Update of your e-mail address failed - please try again or contact the "
+"site administrator"
+msgstr ""
+
+#: th23-user-management-pro.php:951
+msgid "Your e-mail address has successfully been changed"
+msgstr ""
+
+#: th23-user-management-pro.php:959
+msgid ""
+"Validation of your e-mail address failed, the given validation key is "
+"invalid - please try again the link, try again to change your e-mail "
+"address or contact the site administrator"
+msgstr ""
+
+#: th23-user-management-pro.php:977
+#, php-format
+msgid ""
+"<strong>Attention</strong>: Pending change of your e-mail address "
+"requires confirmation - please check your new inbox \"%s\" and follow the "
+"validation link provided"
+msgstr ""
+
+#: th23-user-management-pro.php:980
+#, php-format
+msgid ""
+"<strong>Attention</strong>: There is a pending change of e-mail address "
+"for this user - intended new address is \"%s\""
+msgstr ""
+
+#: th23-user-management-pro.php:1049 th23-user-management.php:736
+msgid "Invalid request - please use the form below to register"
+msgstr ""
+
+#: th23-user-management-pro.php:1059
+msgid "Enter a username or e-mail address"
+msgstr ""
+
+#: th23-user-management-pro.php:1065
+msgid "There is no user registered with that e-mail"
+msgstr ""
+
+#: th23-user-management-pro.php:1071
+msgid "There is no user registered with that username"
+msgstr ""
+
+#: th23-user-management-pro.php:1078
+msgid "Password reset is not possible for this user"
+msgstr ""
+
+#: th23-user-management-pro.php:1089
+#, php-format
+msgid "[%s] Reset password"
+msgstr ""
+
+#: th23-user-management-pro.php:1090
+#, php-format
+msgid "Someone requested the password to be reset for your account on %s."
+msgstr ""
+
+#: th23-user-management-pro.php:1092
+msgid ""
+"If this is a mistake, just ignore this email and nothing will happen."
+msgstr ""
+
+#: th23-user-management-pro.php:1093
+msgid "To reset your password, please visit the following address:"
+msgstr ""
+
+#: th23-user-management-pro.php:1096
+msgid ""
+"The e-mail to reset your password could not be sent due to a server "
+"error. Please try again - if the error persists contact the administrator "
+"of this site"
+msgstr ""
+
+#: th23-user-management-pro.php:1099
+msgid ""
+"The reset of your password has been initiated successfully - please check "
+"your inbox and follow the link provided"
+msgstr ""
+
+#: th23-user-management-pro.php:1123
+msgid ""
+"Resetting your password failed, the given user is invalid - please try "
+"again or contact the site administrator"
+msgstr ""
+
+#: th23-user-management-pro.php:1136
+msgid ""
+"Resetting your password failed, the verification key is invalid - please "
+"try again or contact the site administrator"
+msgstr ""
+
+#: th23-user-management-pro.php:1149
+msgid "Invalid request - please use the form below to reset your password"
+msgstr ""
+
+#: th23-user-management-pro.php:1158
+msgid ""
+"Your password has been changed - please login using your new password"
+msgstr ""
+
+#: th23-user-management-pro.php:1180
+msgid "Lost Password"
+msgstr ""
+
+#: th23-user-management-pro.php:1182
+msgid ""
+"Please fill out the form below. You can enter your username or email "
+"address. You will receive a link to create a new password via email."
+msgstr ""
+
+#: th23-user-management-pro.php:1185
+msgid "Username or e-mail"
+msgstr ""
+
+#: th23-user-management-pro.php:1191
+msgid "Get New Password"
+msgstr ""
+
+#: th23-user-management-pro.php:1196 th23-user-management-pro.php:1243
+#: th23-user-management.php:482 th23-user-management.php:843
+#: th23-user-management.php:1096 th23-user-management.php:1101
+msgid "Log in"
+msgstr ""
+
+#: th23-user-management-pro.php:1198 th23-user-management-pro.php:1245
+#: th23-user-management.php:492 th23-user-management.php:833
+#: th23-user-management.php:1104
+msgid "Register"
+msgstr ""
+
+#: th23-user-management-pro.php:1200 th23-user-management-pro.php:1247
+msgid "Trouble upon password reset?"
+msgstr ""
+
+#: th23-user-management-pro.php:1218 th23-user-management-pro.php:1235
+msgid "Reset Password"
+msgstr ""
+
+#: th23-user-management-pro.php:1220
+msgid "Please enter a new password for your account."
+msgstr ""
+
+#: th23-user-management-pro.php:1223 th23-user-management.php:977
+msgid "New password"
+msgstr ""
+
+#: th23-user-management-pro.php:1227 th23-user-management.php:981
+msgid "Confirm new password"
+msgstr ""
+
+#: th23-user-management.php:242 th23-user-management.php:967
+msgid "Info"
+msgstr ""
+
+#: th23-user-management.php:254 th23-user-management.php:1070
+msgid "Edit profile"
+msgstr ""
+
+#: th23-user-management.php:402
+msgid "Invalid request - please use the form below to login"
+msgstr ""
+
+#: th23-user-management.php:417
+msgid ""
+"Cookies are blocked or not supported by your browser. You must <a href="
+"\"http://en.wikipedia.org/wiki/HTTP_cookie\">enable cookies</a> to login "
+"on this site"
+msgstr ""
+
+#: th23-user-management.php:435
+msgid "Enter a username"
+msgstr ""
+
+#: th23-user-management.php:438
+msgid "The username you entered is invalid"
+msgstr ""
+
+#: th23-user-management.php:441
+msgid "Enter your password"
+msgstr ""
+
+#: th23-user-management.php:444
+msgid "The password you entered is incorrect"
+msgstr ""
+
+#: th23-user-management.php:464 th23-user-management.php:1085
+msgid "Login"
+msgstr ""
+
+#: th23-user-management.php:466
+msgid "Please login, to have full access to this site."
+msgstr ""
+
+#: th23-user-management.php:469 th23-user-management.php:818
+#: th23-user-management.php:910
+msgid "Username"
+msgstr ""
+
+#: th23-user-management.php:478 th23-user-management.php:1096
+msgid "Remember me"
+msgstr ""
+
+#: th23-user-management.php:494 th23-user-management.php:844
+#: th23-user-management.php:1106
+msgid "Lost your password?"
+msgstr ""
+
+#: th23-user-management.php:495
+msgid "Trouble upon login?"
+msgstr ""
+
+#: th23-user-management.php:514 th23-user-management.php:840
+#: th23-user-management.php:1029
+msgid "ERROR"
+msgstr ""
+
+#: th23-user-management.php:515
+msgid ""
+"Cookies are blocked or not supported by your browser. You must <a href="
+"\"http://wikipedia.org/wiki/HTTP_cookie\">enable cookies</a> to login on "
+"this site"
+msgstr ""
+
+#: th23-user-management.php:521 th23-user-management.php:528
+#, php-format
+msgid "Welcome %s"
+msgstr ""
+
+#: th23-user-management.php:522
+#, php-format
+msgid ""
+"You have been logged in successfully, but you have not changed your "
+"initial password yet - please visit <a href=\"%s\">your profile</a> to do "
+"so"
+msgstr ""
+
+#: th23-user-management.php:529
+msgid "You have been logged in successfully"
+msgstr ""
+
+#: th23-user-management.php:560
+msgid "You are required to re-authenticate, please login again"
+msgstr ""
+
+#: th23-user-management.php:617
+msgid "INFO"
+msgstr ""
+
+#: th23-user-management.php:618
+msgid "You have been logged out successfully - hope to see you soon again"
+msgstr ""
+
+#: th23-user-management.php:648
+msgid "All cookies have been cleared - please login again"
+msgstr ""
+
+#: th23-user-management.php:666
+msgid "Troubleshooting"
+msgstr ""
+
+#: th23-user-management.php:668
+msgid ""
+"This website is relying on cookies stored on your computer to remember "
+"who is logged in."
+msgstr ""
+
+#: th23-user-management.php:668
+msgid ""
+"Unfortunately there might be occasions, when this memory can get "
+"confused, e.g. upon logins from different computers under certain "
+"circumstances. This might result in trouble logging in or the submission "
+"of information being denied with an &quot;invalid request&quot; error."
+msgstr ""
+
+#: th23-user-management.php:668
+msgid ""
+"To fix this, simply clear all cookies from this site out of your browser "
+"by using the button below and log in again afterwards:"
+msgstr ""
+
+#: th23-user-management.php:671
+msgid "Delete cookies"
+msgstr ""
+
+#: th23-user-management.php:707
+msgid "Please enter your e-mail address"
+msgstr ""
+
+#: th23-user-management.php:711
+msgid ""
+"This e-mail address is invalid, please enter your valid e-mail address"
+msgstr ""
+
+#: th23-user-management.php:715
+msgid ""
+"This e-mail address is already registered, please provide another one"
+msgstr ""
+
+#: th23-user-management.php:742
+msgid "Please enter a username"
+msgstr ""
+
+#: th23-user-management.php:745
+msgid ""
+"This username is invalid as it contains not allowed characters, please "
+"use another one"
+msgstr ""
+
+#: th23-user-management.php:748
+msgid "This username is already registered, please choose another one"
+msgstr ""
+
+#: th23-user-management.php:769
+msgid ""
+"You could not be registered due to a server error. Please try again - if "
+"the error persists contact the administrator of this site"
+msgstr ""
+
+#: th23-user-management.php:785
+msgid ""
+"You can now login using your username and passwort above. Therefore "
+"please visit the following address:"
+msgstr ""
+
+#: th23-user-management.php:788
+msgid ""
+"You have been registered, but the required mail could not be sent due to "
+"a server error. Please contact the administrator of this site"
+msgstr ""
+
+#: th23-user-management.php:791
+msgid ""
+"You have been registered successfully - please check your inbox for "
+"initial password to login using the form below"
+msgstr ""
+
+#: th23-user-management.php:814
+msgid "Please fill out the fields below to register."
+msgstr ""
+
+#: th23-user-management.php:815
+msgid "An initial password will be sent to the given e-mail address."
+msgstr ""
+
+#: th23-user-management.php:826
+msgid "E-mail"
+msgstr ""
+
+#: th23-user-management.php:840
+msgid "User registration is currently not allowed"
+msgstr ""
+
+#: th23-user-management.php:845
+msgid "Trouble registering?"
+msgstr ""
+
+#: th23-user-management.php:875
+msgid "Invalid request - please use the form below for any actions"
+msgstr ""
+
+#: th23-user-management.php:881
+msgid ""
+"You have been logged out of all other sessions - except the one on this "
+"browser"
+msgstr ""
+
+#: th23-user-management.php:882
+msgid ""
+"In case you did any changes on your profile below, these have not yet "
+"been saved - please do so via the buttons at the bottom"
+msgstr ""
+
+#: th23-user-management.php:898
+msgid "Your Profile"
+msgstr ""
+
+#: th23-user-management.php:906
+msgid "Modify your profile and settings for this page below."
+msgstr ""
+
+#: th23-user-management.php:908
+msgid "Name"
+msgstr ""
+
+#: th23-user-management.php:911
+msgid "Can not be changed"
+msgstr ""
+
+#: th23-user-management.php:914
+msgid "First Name"
+msgstr ""
+
+#: th23-user-management.php:918
+msgid "Last Name"
+msgstr ""
+
+#: th23-user-management.php:922
+msgid "Nickname"
+msgstr ""
+
+#: th23-user-management.php:923
+msgid "Required"
+msgstr ""
+
+#: th23-user-management.php:926
+msgid "Display Name"
+msgstr ""
+
+#: th23-user-management.php:948
+msgid "Contact"
+msgstr ""
+
+#: th23-user-management.php:950
+msgid "E-Mail"
+msgstr ""
+
+#: th23-user-management.php:951
+msgid "Required, change needs to be confirmed"
+msgstr ""
+
+#: th23-user-management.php:954
+#, php-format
+msgid ""
+"<strong>Note</strong>: The change of your e-mail to <code>%s</code> is "
+"pending - please check your new e-mail inbox for validation"
+msgstr ""
+
+#: th23-user-management.php:958
+msgid "Website"
+msgstr ""
+
+#: th23-user-management.php:970
+msgid "Biographical Info"
+msgstr ""
+
+#: th23-user-management.php:972
+msgid "Information about yourself provided here might be shown publicly"
+msgstr ""
+
+#: th23-user-management.php:978
+msgid "Leave empty, if you do NOT want to change your password"
+msgstr ""
+
+#: th23-user-management.php:992 th23-user-management.php:996
+msgid "Log Out of All Other Sessions"
+msgstr ""
+
+#: th23-user-management.php:993
+msgid ""
+"Left your account logged in at a public computer? Lost your phone? This "
+"will log you out everywhere except your current browser."
+msgstr ""
+
+#: th23-user-management.php:997
+msgid "You are only logged in at this location."
+msgstr ""
+
+#: th23-user-management.php:1005
+msgid "Show Admin Bar"
+msgstr ""
+
+#: th23-user-management.php:1012
+msgid "when viewing site"
+msgstr ""
+
+#: th23-user-management.php:1017
+msgid "Save"
+msgstr ""
+
+#: th23-user-management.php:1018
+msgid "Cancel"
+msgstr ""
+
+#: th23-user-management.php:1022
+msgid "Note"
+msgstr ""
+
+#: th23-user-management.php:1022
+#, php-format
+msgid ""
+"To edit your profile please visit the %sProfile section in the admin area"
+"%s"
+msgstr ""
+
+#: th23-user-management.php:1029
+msgid "You are not allowed to edit your profile"
+msgstr ""
+
+#: th23-user-management.php:1047
+msgid "Displays registration, login, logout and user management options"
+msgstr ""
+
+#: th23-user-management.php:1074
+msgid "Dashboard"
+msgstr ""
+
+#: th23-user-management.php:1076
+msgid "Write post"
+msgstr ""
+
+#: th23-user-management.php:1079
+msgid "Log out"
+msgstr ""
+
+#: th23-user-management.php:1093
+msgid "User"
+msgstr ""
+
+#: th23-user-management.php:1107
+msgid "Trouble?"
+msgstr ""

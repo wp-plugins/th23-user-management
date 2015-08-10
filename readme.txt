@@ -3,8 +3,8 @@ Contributors: th23
 Donate link: http://th23.net/th23-user-management
 Tags: user management, frontend, customized, styled, login, logout, wp-login, admin access, register, registration, sign-up, chose password, user password, user approval, approve, edit profile, manage profile, user profile, captcha, recaptcha, spam, bots
 Requires at least: 3.8.0
-Tested up to: 4.2.2
-Stable tag: 2.0.1
+Tested up to: 4.3.0
+Stable tag: 2.1.0
 License: GPLv2 only
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -61,6 +61,10 @@ In case you have a question or any feedback, please use the support section here
 
 == Changelog ==
 
+= v2.1.0 =
+* [Enhancement] Changed class handling / constructors to php5+ style (__construct) for compliance with WordPress standards
+* [Enhancement] Added danish translation - thanks to Rasmus
+
 = v2.0.1 =
 * [Enhancement] Adapted widget HTML to take up CSS styling from current theme in more cases easily - added "widget_meta" class
 * [Fix] Fixed encoding and user login value bug on links send by mail for some language/ plugin/ theme combinations
@@ -103,6 +107,10 @@ In case you have a question or any feedback, please use the support section here
 * n/a
 
 == Upgrade Notice ==
+
+= v2.1.0 =
+Please upgrade to this version to ensure compatibility with php5+ constructors and adapted WordPress coding standards!
+*** Professional users, please get an updated version of the "pro" file as well! ***
 
 = v2.0.1 =
 Please upgrade to this version to ensure links sent via mail to users contain correct character encoding!

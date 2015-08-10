@@ -9,9 +9,9 @@ http://th23.net
 
 class th23_user_management_admin extends th23_user_management_pro {
 
-	function th23_user_management_admin() {
+	function __construct() {
 
-		parent::th23_user_management_pro();
+		parent::__construct();
 
 		// Setup basic variables (additions for backend)
 		$this->requirements = $this->check_requirements();
@@ -40,6 +40,11 @@ class th23_user_management_admin extends th23_user_management_pro {
 		// User role "pending" should not be choosable as "New User Default Role" - which will be assigned to users after admin approval, if required
 		add_filter('editable_roles', array(&$this, 'hide_user_role_pending'));
 
+	}
+
+	// Ensure PHP <5 compatibility
+	function th23_user_management_admin() {
+		self::__construct();
 	}
 
 	// Check requirements

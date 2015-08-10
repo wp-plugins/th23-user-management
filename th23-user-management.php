@@ -3,7 +3,7 @@
 Plugin Name: th23 User Management
 Plugin URI: http://th23.net/th23-user-management/
 Description: User management activities (login, profile changes, register, lost password) can be done via the themed frontend of your website. Access for user groups to unstyled admin area can be restricted and "wp-login.php" can be disabled. Users will only see the nicely styled side of your page :-) Add options for user chosen password upon registration including initial e-mail validation and approval for new registrations by administrator. Option to use reCaptcha to prevent spam and bots upon registration, lost password and login. Introduce e-mail re-validation upon changes. Note: Some options are limited in the Basic version!
-Version: 2.0.1
+Version: 2.1.0
 Author: Thorsten Hartmann (th23)
 Author URI: http://th23.net/
 Text Domain: th23_user_management
@@ -20,6 +20,9 @@ This license and terms apply for the Basic part of this program as distributed, 
 =====================
 
 HISTORY
+
+= v2.1.0 =
+* [Enhancement] Changed class handling / constructors to php5+ style (__construct) for compliance with WordPress standards
 
 = v2.0.1 =
 * [Enhancement] Adapted widget HTML to take up CSS styling from current theme in more cases easily - added "widget_meta" class
@@ -89,7 +92,7 @@ class th23_user_management {
 
 	var $plugin, $slug, $file, $base_dir, $base_name, $pro, $pro_version, $options, $requirements, $settings_base, $settings_base_url, $settings_permission, $plugin_data, $data; // $data for exchange of data between plugin functions
 
-	function th23_user_management() {
+	function __construct() {
 		
 		// Setup basic variables
 		$this->plugin = 'th23_user_management';
@@ -138,6 +141,11 @@ class th23_user_management {
 		// Add overlay message HTML if required
 		add_action('wp_footer', array(&$this, 'add_overlay'));
 
+	}
+
+	// Ensure PHP <5 compatibility
+	function th23_user_management() {
+		self::__construct();
 	}
 
 	// Execute early actions and independent from user management page - eg for cookie related actions / before sending any other output
@@ -1007,7 +1015,7 @@ class th23_user_management {
 				$this->options['admin_bar'] = $this->options['admin_access'];
 			}
 			if($this->options['admin_bar'] == 'default' || current_user_can($this->options['admin_bar'])) {
-				$html .= ' <p>';
+				$html .= ' <p class="show-admin-bar">';
 				$html .= '  ' . __('Show Admin Bar', $this->plugin) . '<br />'. "\n";
 				if(isset($_POST['show_admin_bar_front'])) {
 					$checked = (!empty($_POST['show_admin_bar_front'])) ? ' checked="checked"' : '';
@@ -1045,15 +1053,20 @@ class th23_user_management {
 
 class th23_user_management_widget extends WP_Widget {
 
-	function th23_user_management_widget() {
+	function __construct() {
 		
 		global $th23_user_management;
 		$master = $th23_user_management;
 		
-		parent::WP_Widget(false, $name = 'th23 User Management', array('description' => __('Displays registration, login, logout and user management options', $master->plugin)));
+		parent::__construct(false, $name = 'th23 User Management', array('description' => __('Displays registration, login, logout and user management options', $master->plugin)));
 	
 	}
-	
+
+	// Ensure PHP <5 compatibility
+	function th23_user_management_widget() {
+		self::__construct();
+	}
+
 	function widget($args, $instance) {
 
 		global $th23_user_management;
@@ -1135,8 +1148,12 @@ if(file_exists(WP_PLUGIN_DIR . TH23_USER_MANAGEMENT_BASEDIR . '/th23-user-manage
 // Mimic PRO class, if it does not exist
 if(!class_exists('th23_user_management_pro')) {
 	class th23_user_management_pro extends th23_user_management {
+		function __construct() {
+			parent::__construct();
+		}
+		// Ensure PHP <5 compatibility
 		function th23_user_management_pro() {
-			parent::th23_user_management();
+			self::__construct();
 		}
 	}
 }

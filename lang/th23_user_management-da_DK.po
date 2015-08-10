@@ -1,0 +1,1526 @@
+# WordPress Blank Pot
+# Copyright (C) 2014 ...
+# This file is distributed under the GNU General Public License v2 or later.
+msgid ""
+msgstr ""
+"Project-Id-Version: th23 User Management - v2.0.0\n"
+"POT-Creation-Date: 2015-06-03 13:55+0100\n"
+"PO-Revision-Date: \n"
+"Last-Translator: Your Name <you@example.com>\n"
+"Language-Team: Your Team <translations@example.com>\n"
+"Report-Msgid-Bugs-To: Translator Name <translations@example.com>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Textdomain-Support: yesX-Generator: Poedit 1.6.4\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;esc_html_e;esc_html_x:1,2c;esc_html__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_attr__;_ex:1,2c;_nx:4c,1,2;_nx_noop:4c,1,2;"
+"_x:1,2c;_n:1,2;_n_noop:1,2;__ngettext:1,2;__ngettext_noop:1,2;_c,_nc:4c,1,2\n"
+"X-Poedit-Basepath: E:\\Subversion\\th23-user-management\\tags\\2.0.0\\\n"
+"X-Generator: Poedit 1.7.6\n"
+"Language: da_DK\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: th23-user-management-admin.php:60 th23-user-management-pro.php:721
+#: th23-user-management-pro.php:724
+msgid "Pending"
+msgstr "Afventer"
+
+#: th23-user-management-admin.php:79 th23-user-management.php:1085
+msgid "User Management"
+msgstr "Brugeradministration"
+
+#: th23-user-management-admin.php:81
+msgid ""
+"<h2><strong>You can NOT delete this page!</strong></h2><p>This page belongs "
+"to the <a href=\"http://th23.net/"
+msgstr ""
+"<h2><strong>Du må IKKE slette den side!</strong></h2><p>Siden er en del af "
+"<a href=\"http://th23.net/"
+
+#: th23-user-management-admin.php:128 th23-user-management-admin.php:398
+msgid "Professional"
+msgstr "Professionel"
+
+#: th23-user-management-admin.php:131 th23-user-management-admin.php:402
+#: th23-user-management-admin.php:403
+msgid "Get additional functionality"
+msgstr "Få ekstra funktioner"
+
+#: th23-user-management-admin.php:131 th23-user-management-admin.php:402
+msgid "Upgrade to <i>Professional</i> version"
+msgstr "Opgrader til <i>Professionel</i> udgave"
+
+#: th23-user-management-admin.php:132 th23-user-management-admin.php:402
+msgid "Basic"
+msgstr "Basis"
+
+#: th23-user-management-admin.php:138
+#, php-format
+msgid ""
+"<strong>Warning</strong>: This plugin might not work properly on your "
+"installation - please check <a href=\"%s\">Settings page</a> for details"
+msgstr ""
+"<strong>Advarsel</strong>: Dette plugin virker måske ikke optimalt på din "
+"installation - check venligst <a href=\"%s\">Indstillinger</a> for detaljer"
+
+#: th23-user-management-admin.php:142
+#, php-format
+msgid ""
+"<strong>Error</strong>: The version of the <strong><i>Professional</i></"
+"strong> file (<i>%s-pro.php</i>, version %s) does not match with the overall "
+"plugin (version %s) - please make sure you update the overall plugin to the "
+"latest version e.g. via the <a href=\"update-core.php\">automatic update "
+"function</a> and upload the latest version of the <strong><i>Professional</"
+"i></strong> file from <a href=\"http://th23.net/%s/\">th23.net</a> onto your "
+"webserver"
+msgstr ""
+"<strong>Fejl</strong>: The version of the <strong><i>Professional</i></"
+"strong> file (<i>%s-pro.php</i>, version %s) does not match with the overall "
+"plugin (version %s) - please make sure you update the overall plugin to the "
+"latest version e.g. via the <a href=\"update-core.php\">automatic update "
+"function</a> and upload the latest version of the <strong><i>Professional</"
+"i></strong> file from <a href=\"http://th23.net/%s/\">th23.net</a> onto your "
+"webserver"
+
+#: th23-user-management-admin.php:146 th23-user-management.php:974
+msgid "Settings"
+msgstr "Indstillinger"
+
+#: th23-user-management-admin.php:169 th23-user-management-pro.php:739
+msgid "Approve"
+msgstr "Godkend"
+
+#: th23-user-management-admin.php:188
+msgid "Warning"
+msgstr "Advarsel"
+
+#: th23-user-management-admin.php:188
+msgid ""
+"This plugin is not designed to work on a multisite setup - it is recommended "
+"not to use this plugin in such an environment"
+msgstr ""
+"Dette plugin er ikke kompatible med multisider - det anbefales ikke at "
+"benytte dette plugin i multimiljø"
+
+#: th23-user-management-admin.php:193
+msgid ""
+"You are currently using the free version of this plugin, in which we support "
+"a lot of very useful features to give your users a better feel browsing your "
+"site. To even improve that experience further, there is a "
+"<strong><i>Professional</i></strong> version available adding some equally "
+"useful features:"
+msgstr ""
+"Du benytter en gratis version af dette plugin, hvilke har mange gode "
+"features der gør at dine brugere får en god oplevelse. For at forbedre dette "
+"endnu mere, er der også en <strong><i>Professionel</i></strong> version, der "
+"tilføjer flere ligeså gode features:"
+
+#: th23-user-management-admin.php:193
+msgid ""
+"<strong>All user management actions available on frontend</strong> styled "
+"according to theme - including profile changes, lost password, reset password"
+msgstr ""
+"<strong>Al brugeradministration er tilgængelig frontend</strong> tilpasset "
+"dit tema - inklusiv profil ændringer, glemt kodeord og nulstilling af kodeord"
+
+#: th23-user-management-admin.php:193
+msgid ""
+"<strong>Access to the unstyled admin area can be restricted</strong> based "
+"on user groups - \"wp-login.php\" can be disabled completely"
+msgstr ""
+"<strong>Adgang til administratorsiden kan begrænses</strong> baseret på "
+"roller. \"wp-login.php\" kan deaktiveres helt"
+
+#: th23-user-management-admin.php:193
+msgid ""
+"<strong>User chosen password upon registration</strong> option available - "
+"including initial e-mail validation"
+msgstr ""
+"<strong>Lad de besøgende bestemme deres kodeord selv</strong> - funktion er "
+"tilgængelig - inklusiv email validering"
+
+#: th23-user-management-admin.php:193
+msgid ""
+"<strong>Admin approval for new users</strong> option available - before user "
+"can login"
+msgstr ""
+"<strong>Administratorgodkendelse af nye brugere</strong> - funktion er "
+"tilgængelig - før brugeren kan logge ind"
+
+#: th23-user-management-admin.php:193
+msgid ""
+"<strong>Use reCaptcha against spam and bots</strong> upon registration, lost "
+"password and login"
+msgstr ""
+"<strong>Brug af reCaptcha imod spam og botter</strong> - ved registrering, "
+"login og glemt kodeord"
+
+#: th23-user-management-admin.php:193
+msgid "Introduction of e-mail re-validation upon changes of address"
+msgstr "Introduktion til email gen-validering ved ændring af emailadresse"
+
+#: th23-user-management-admin.php:193
+#, php-format
+msgid ""
+"Get all these additional features - %supgrade to the <i>Professional</i> "
+"version today%s"
+msgstr ""
+"Få alle disse funktioner - - %sopgrader til <i>Professional</i> version i dag"
+"%s"
+
+#: th23-user-management-admin.php:222 th23-user-management.php:235
+msgid "Done"
+msgstr "Færdig"
+
+#: th23-user-management-admin.php:222
+msgid "Settings saved"
+msgstr "Indstillinger gemt"
+
+#: th23-user-management-admin.php:232 th23-user-management-admin.php:237
+#: th23-user-management.php:239
+msgid "Error"
+msgstr "Fejl"
+
+#: th23-user-management-admin.php:232
+msgid ""
+"No valid/ published user management page has been found - it was "
+"automatically attempted to create a new one, please refresh this page and "
+"see if the error persists"
+msgstr ""
+"Ingen gyldig/ udgivet user management side er fundet - den blev forsøgt "
+"generet automatisk, opdater denne side og se om fejlen forsvinder"
+
+#: th23-user-management-admin.php:237
+msgid ""
+"reCAPTCHA requires a public and a private key to work - despite your "
+"settings it will be disabled until you define them, see settings below for "
+"information on how obtain these keys"
+msgstr ""
+"reCAPTCHA kræver en public og en private key for at virke - selvom reCAPTCHA "
+"er slået til, vil denne ikke virke for disse keys er indsat. Se nedenfor, "
+"for hvordan du opnår disse keys"
+
+#: th23-user-management-admin.php:247
+msgid "General"
+msgstr "Generelt"
+
+#: th23-user-management-admin.php:251
+msgid "Overlay message time"
+msgstr "Transparent besked tid"
+
+#: th23-user-management-admin.php:252
+msgid ""
+"Duration in seconds until overlay messages shown to the user upon login/ "
+"logout disappears automatically - set to '0' for no automatic disappearance "
+"- Note: Error messages will never disappear automatically"
+msgstr ""
+"Varighed i sekunder for den transparente beskedboks der vises, når man "
+"logger ind og ud, indtil denne automatisk forsvinder igen. Sæt den til '0'  "
+"hvis den ikke kan forsvinde automatisk. Note: Fejlbeskeder forsvinder aldrig "
+"automatisk"
+
+#: th23-user-management-admin.php:255
+msgid "Access"
+msgstr "Adgang"
+
+#: th23-user-management-admin.php:259
+msgid "Access to admin area for"
+msgstr "Adgang til Administrator område"
+
+#: th23-user-management-admin.php:262 th23-user-management-admin.php:280
+msgid "Admins only"
+msgstr "Kun for Administrator"
+
+#: th23-user-management-admin.php:263 th23-user-management-admin.php:281
+msgid "Admins and Editors only"
+msgstr "Administrator og Redaktør"
+
+#: th23-user-management-admin.php:264 th23-user-management-admin.php:282
+msgid "Admins, Editors and Authors only"
+msgstr "Administrator, Redaktør og Forfatter"
+
+#: th23-user-management-admin.php:265
+msgid "Admins, Editors, Authors and Contributors only [recommended]"
+msgstr "Administrator, Redaktør, Forfatter og Bidragyder [Anbefalet]"
+
+#: th23-user-management-admin.php:266 th23-user-management-admin.php:284
+msgid ""
+"All registered users (Admins, Editors, Authors, Contributors and "
+"Subscribers) [WordPress default]"
+msgstr ""
+"Alle registreret brugere (Administrator, Redaktør, Forfatter, Bidragyder og "
+"Abonnenter [Wordpress standard]"
+
+#: th23-user-management-admin.php:271
+msgid ""
+"Users not allowed to access the admin area will get an error message - "
+"forcing them to return to the home page of your site"
+msgstr ""
+"Brugere der ikke har adgang til Administrator området, vil få en fejl-besked "
+"- der tvinger dem til forsiden af din hjemmeside"
+
+#: th23-user-management-admin.php:276
+msgid "Show admin bar for"
+msgstr "Vis administrator-bar for"
+
+#: th23-user-management-admin.php:279
+msgid "Groups having access to the admin area only [recommended]"
+msgstr "Grupper der har adgang til Administrator-området [Anbefalet]"
+
+#: th23-user-management-admin.php:283
+msgid "Admins, Editors, Authors and Contributors only"
+msgstr "Kun Administrator, Redaktør, Forfatter og Bidragyder"
+
+#: th23-user-management-admin.php:285
+msgid "No one (disable admin bar)"
+msgstr "Ingen (Deaktiver administrator-bar)"
+
+#: th23-user-management-admin.php:290
+msgid "Defines which users will see the admin bar on the frontend of your site"
+msgstr ""
+"Definere hvilke brugere der kan se administrator-bar på forsiden af din "
+"hjemmeside"
+
+#: th23-user-management-admin.php:295
+msgid "Allow <code>wp-login.php</code>"
+msgstr "Tillad <code>wp-login.php</code>"
+
+#: th23-user-management-admin.php:296
+msgid "Allow access to <code>wp-login.php</code>"
+msgstr "Tillad adgang til <code>wp-login.php</code>"
+
+#: th23-user-management-admin.php:296
+msgid ""
+"<strong>Warning</strong>: Allowing access to <code>wp-login.php</code> "
+"allows users to circumvent some settings below, e.g. mail validation, admin "
+"approval, captcha - it is <strong>strongly recomended to leave this "
+"unchecked</strong>!"
+msgstr ""
+"<strong>Advarsel</strong>: Adgangstilladelse til <code>wp-login.php</code> "
+"giver brugere mulighed for at omgå nogle af indstillinger nedenfor. Det være "
+"sig mailvalidering, administrator godkendelse og captcha - <strong>Det "
+"anbefales på det kraftigeste at efterlade det felt tomt</strong>!"
+
+#: th23-user-management-admin.php:299 th23-user-management.php:811
+msgid "Registration"
+msgstr "Registrering"
+
+#: th23-user-management-admin.php:303
+msgid "Membership"
+msgstr "Medlemskab"
+
+#: th23-user-management-admin.php:304
+msgid "New users can register"
+msgstr "Nye brugere kan registrere sig"
+
+#: th23-user-management-admin.php:304
+msgid "This setting changes the standard defined under Settings - General"
+msgstr ""
+"Denne indstilling ændrer den standard defineret indstilling under "
+"Indstillinger -> Generelt"
+
+#: th23-user-management-admin.php:312
+msgid "Password selection"
+msgstr "Kodeords indstillinger"
+
+#: th23-user-management-admin.php:313
+msgid ""
+"Allow user to choose password upon registration - will require user to "
+"validate his mail address"
+msgstr ""
+"Tillad at brugeren selv vælger et kodeord - dette kræver Emailvalidering af "
+"brugeren"
+
+#: th23-user-management-admin.php:318
+msgid "User approval"
+msgstr "Brugergodkendelse"
+
+#: th23-user-management-admin.php:319
+msgid ""
+"Newly registered users require approval by an admin before being allowed to "
+"login"
+msgstr ""
+"Nye registreret brugere skal godkendes af en administrator, før de kan logge "
+"ind"
+
+#: th23-user-management-admin.php:327
+msgid "Registration question"
+msgstr "Registreringsspørgsmål"
+
+#: th23-user-management-admin.php:328
+msgid ""
+"Question to request additional information from users upon registration, e."
+"g. \"How did you find out about this page?\" to determine if the request for "
+"approving a newly registered user is valid or should be denied - leave empty "
+"to not show any question"
+msgstr ""
+"Ekstra spørgsmål til brugeren under registrering. F.eks \"Hvordan fandt du "
+"denne side?\" - dette gør det nemmere når nye brugere skal godkendes eller "
+"ej. Efterlad tomt for ikke at stille noget spørgsmål"
+
+#: th23-user-management-admin.php:333
+msgid "New User Default Role"
+msgstr "Standardrollen nye brugere skal have"
+
+#: th23-user-management-admin.php:336
+msgid ""
+"In case admin approval is required for new users, they will be assigned to "
+"this selection after the approval has been granted by an admin!<br/>This "
+"setting changes the standard defined under Settings - General"
+msgstr ""
+"I tilfælde af at nye brugere skal godkendes af en administrator, vil de få "
+"denne rolle så snart de er godkendt. <br/>Denne indstilling ændrer den "
+"standard defineret indstilling under Indstillinger -> Generelt"
+
+#: th23-user-management-admin.php:341
+msgid "Approver e-mail"
+msgstr "Godkenderens email"
+
+#: th23-user-management-admin.php:342
+msgid ""
+"Provide mail address of the approver, to receive notification mails on each "
+"new user registration pending approval - leave empty to receive no "
+"notifications"
+msgstr ""
+"Angiv en email adresse på den person der skal godkende nye brugere, så han "
+"eller hun modtager en mail, hver gang der er ny brugerregistrering. Efterlad "
+"tomt for ikke at sende nogen notifikationer ud"
+
+#: th23-user-management-admin.php:345
+msgid "Security"
+msgstr "Sikkerhed"
+
+#: th23-user-management-admin.php:349
+msgid "Enable <i>reCaptcha</i>"
+msgstr "Aktiver <i>reCaptcha</i>"
+
+#: th23-user-management-admin.php:350
+msgid ""
+"Enable usage of <i>reCaptcha</i> for better protection against spam and bot "
+"registrations - Note: This is a service provided by <i>Google</i> and "
+"requires <a href=\"https://www.google.com/recaptcha/intro/index.html"
+"\">signing up for a free key</a>"
+msgstr ""
+"Aktiver brugen af <i>reCaptcha</i> for bedre at beskytte mod spam og bot-"
+"registrering. Obs. Denne service leveres af <i>Google</i> og kræver <a href="
+"\"https://www.google.com/recaptcha/intro/index.html\">gratis registrering "
+"for keys</a>"
+
+#: th23-user-management-admin.php:358
+msgid "Public key"
+msgstr "Public key"
+
+#: th23-user-management-admin.php:359
+msgid "Required, public <i>reCaptcha</i> key - see above link to obtain a key"
+msgstr ""
+"Krævet felt, public <i>reCaptcha</i> key - se hvordan du får nøgle ovenfor"
+
+#: th23-user-management-admin.php:364
+msgid "Private key"
+msgstr "Private key"
+
+#: th23-user-management-admin.php:365
+msgid "Required, private <i>reCaptcha</i> key - see above link to obtain a key"
+msgstr ""
+"Krævet felt, private <i>reCaptcha</i> key - se hvordan du får nøgle ovenfor"
+
+#: th23-user-management-admin.php:370
+msgid "Use captcha upon registration"
+msgstr "Brug captcha under registrering"
+
+#: th23-user-management-admin.php:371
+msgid "Users need to solve a captcha upon registering for a new account"
+msgstr "Brugeren skal løse en opgave under registrering af ny konto"
+
+#: th23-user-management-admin.php:376
+msgid "Use captcha upon lost password"
+msgstr "Brug captcha ved glemt kodeord"
+
+#: th23-user-management-admin.php:377
+msgid "Users need to solve a captcha upon requesting a password reset"
+msgstr "Brugeren skal løse en opgave når kodeord skal nulstilles"
+
+#: th23-user-management-admin.php:382
+msgid "Use captcha upon login"
+msgstr "Brug captcha under login"
+
+#: th23-user-management-admin.php:383
+msgid ""
+"Specify at which attempt (unsuccessful, in a row) users need to solve a "
+"captcha upon login - set to '0' to disable, set to e.g. '4' for allowing "
+"three attempts without captcha"
+msgstr ""
+"Antallet af fejl-login i træk en bruger kan forsøge logge ind. Overskrides "
+"antallet skal de løse en reCaptcha"
+
+#: th23-user-management-admin.php:390
+msgid "Save Changes"
+msgstr "Gem ændringer"
+
+#: th23-user-management-admin.php:399
+msgid "We like to hear your feedback..."
+msgstr "Har du feedback til os?"
+
+#: th23-user-management-admin.php:405
+#, php-format
+msgid "Version %s"
+msgstr "Version %s"
+
+#: th23-user-management-admin.php:405
+#, php-format
+msgid "By %s"
+msgstr "Af %s"
+
+#: th23-user-management-admin.php:405
+msgid "Visit plugin site"
+msgstr "Besøg udviklerens hjemmeside"
+
+#: th23-user-management-pro.php:55
+msgid "wp-login.php is disabled"
+msgstr "wp-login.php er deaktiveret"
+
+#: th23-user-management-pro.php:55 th23-user-management-pro.php:63
+msgid "Failure Notice"
+msgstr "Fejlbesked"
+
+#: th23-user-management-pro.php:63
+#, php-format
+msgid ""
+"Access to the admin area is restricted on this site!<br /><br />Please "
+"return to <a href=\"%1$s\">%2$s</a>"
+msgstr ""
+"Adgang til administratorområdet er begrænset på denne hjemmeside!<br /><br /"
+">Gå venligst tilbage til <a href=\"%1$s\">%2$s</a>"
+
+#: th23-user-management-pro.php:121
+msgid ""
+"Sorry, you do not seem to be human - please solve the captcha shown to proof "
+"otherwise"
+msgstr ""
+"Beklager, du virker ikke til at være et menneske - løs venligst opgaven "
+"rigtig for at modbevise dette"
+
+#: th23-user-management-pro.php:138
+msgid ""
+"Enhanced security measures - please enter your password again and solve the "
+"shown captcha to login"
+msgstr ""
+"Forstærket sikkerhed er slået til - angiv venligst dit kodeord ingen og løs "
+"captcha-opgaven for at logge ind"
+
+#: th23-user-management-pro.php:150
+msgid ""
+"You exceeded the maximum number of allowed login attempts - please enter "
+"your password again and solve the shown captcha to login"
+msgstr ""
+"Du har overskredet antal forsøg på at logge ind - angiv venligst kodeord "
+"igen og løs captcha-opgaven for at logge ind"
+
+#: th23-user-management-pro.php:198 th23-user-management-pro.php:219
+#: th23-user-management-pro.php:239
+msgid "Captcha - please follow the instructions below"
+msgstr "Captcha - følg venligst instruktionerne nedenfor"
+
+#: th23-user-management-pro.php:198 th23-user-management-pro.php:219
+#: th23-user-management-pro.php:239
+msgid ""
+"<strong>What?</strong> A captach is a small test aiming to distinguish "
+"humans from computers.<br /><strong>Why?</strong> Internet today needs to "
+"fight a lot of spam and this small test is required to keep this website "
+"clean."
+msgstr ""
+"<strong>Hvad?</strong>captcha er en måde hvorpå man skelner mellem mennesker "
+"og computere.<br /><strong>Hvorfor?</strong> Vi har brug for at bekæmpe "
+"spam, og disse små opgaver hjælper os med at holde dette websted rent."
+
+#: th23-user-management-pro.php:198 th23-user-management-pro.php:219
+#: th23-user-management-pro.php:239
+msgid "What? Why?"
+msgstr "Hvad? Hvorfor?"
+
+#: th23-user-management-pro.php:273 th23-user-management-pro.php:423
+#: th23-user-management-pro.php:775 th23-user-management-pro.php:1030
+#: th23-user-management-pro.php:1232 th23-user-management.php:986
+msgid "n/a"
+msgstr "NA"
+
+#: th23-user-management-pro.php:281
+msgid "Please define a password"
+msgstr "Angiv venligst et kodeord"
+
+#: th23-user-management-pro.php:285
+msgid "Password may not contain the character \"\\\""
+msgstr "Kodeordet må ikke indeholde disse tegn \"\\\""
+
+#: th23-user-management-pro.php:289
+msgid ""
+"The password confirmation does not match defined password, please try again"
+msgstr ""
+"Det gentaget kodeord passer ikke overens med det første. Prøv venligst igen"
+
+#: th23-user-management-pro.php:336
+#, php-format
+msgid "[%s] Welcome / Validate your e-mail"
+msgstr "[%s] Velkommen / Bekræft din email"
+
+#: th23-user-management-pro.php:337 th23-user-management-pro.php:359
+#: th23-user-management.php:782
+#, php-format
+msgid "Welcome to %s and thanks for joining!"
+msgstr "Velkommen til %s og tak fordi du tilmeldte dig!"
+
+#: th23-user-management-pro.php:338 th23-user-management-pro.php:360
+#: th23-user-management-pro.php:673 th23-user-management-pro.php:1091
+#: th23-user-management.php:783
+#, php-format
+msgid "Your username: %s"
+msgstr "Dit brugernavn: %s"
+
+#: th23-user-management-pro.php:339
+msgid ""
+"Your account is registered, but has to be activated by validating your e-"
+"mail address. Please confirm your e-mail address by visiting the following "
+"link:"
+msgstr ""
+"Din konto er registreret, men du skal bekræfte din emailadresse. Bekræft "
+"venligst ved at benytte følgende link (Kan du ikke klikke på linket, kan du "
+"kopier det over i din browser):"
+
+#: th23-user-management-pro.php:343
+msgid ""
+"You have been registered, but the required verification mail could not be "
+"sent due to a server error. Please contact the administrator of this site"
+msgstr ""
+"Du er nu registreret. Desværre kunne en email bekræftigelse ikke sendes "
+"grundet serverfejl. Kontakt venligst en Administrator"
+
+#: th23-user-management-pro.php:346
+msgid ""
+"You have been registered successfully - please check your inbox for a mail "
+"containing a link for validating your e-mail address"
+msgstr ""
+"Din registrering er gennemført - tjek venligst om du har fået en "
+"bekræftigelsemail i din indbakke (hvis ikke mailen kommer inden 15 minutter, "
+"tjek venligst din SPAM mappe)."
+
+#: th23-user-management-pro.php:358 th23-user-management.php:781
+#, php-format
+msgid "[%s] Welcome / Your username and password"
+msgstr "[%s] Velkommen / Dit brugernavn og kodeord"
+
+#: th23-user-management-pro.php:361 th23-user-management.php:784
+#, php-format
+msgid "Your password: %s"
+msgstr "Dit kodeord: %s"
+
+#: th23-user-management-pro.php:362
+msgid ""
+"Your registration is complete, but has to be approved by an administrator. "
+"You will receive another mail, once your registration has been approved and "
+"you can login using your username and passwort above."
+msgstr ""
+"Din konto-registrering er færdig, men kræver at du bliver godkendt af en "
+"Administrator. Du vil modtage en email når din konto er godkendt - du kan "
+"herefter logge ind med ovenstående oplysninger."
+
+#: th23-user-management-pro.php:365
+msgid ""
+"You have been registered, but the required notification mail could not be "
+"sent due to a server error. Please contact the administrator of this site"
+msgstr ""
+"Du er registeret, men en krævet notifikations-mail blev ikke sendt grundet "
+"server-fejl. Kontakt venligst en Administrator"
+
+#: th23-user-management-pro.php:368
+msgid ""
+"You have been registered successfully, but need approval by an administrator "
+"- please check your inbox for initial password to login afterwards"
+msgstr ""
+"Din registrering er gennemført, men mangler Administrator-godkendelse - tjek "
+"venligst din mailindbakke for det udstedte kodeord, for at logge ind "
+"efterfølgende"
+
+#: th23-user-management-pro.php:374 th23-user-management-pro.php:486
+#, php-format
+msgid "[%s] New user registration / Approval required"
+msgstr "[%s] Ny brugerregistrering / Godkendelse krævet"
+
+#: th23-user-management-pro.php:375
+#, php-format
+msgid ""
+"A user with the following details regsitered on your site \"%s\" and is "
+"pending your approval before being able to sign in:"
+msgstr ""
+"En bruger med følgende oplysninger har registeret sig på \"%s\", og afventer "
+"godkendelse for denne kan logge ind:"
+
+#: th23-user-management-pro.php:376 th23-user-management-pro.php:488
+#, php-format
+msgid "Username: %s"
+msgstr "Brugernavn: %s"
+
+#: th23-user-management-pro.php:377 th23-user-management-pro.php:489
+#, php-format
+msgid "E-mail: %s"
+msgstr "Email: %s"
+
+#: th23-user-management-pro.php:379 th23-user-management-pro.php:491
+#, php-format
+msgid "Upon the registration question \"%s\" the user answered:"
+msgstr "Til spørgsmålet \"%s\" svarede brugeren:"
+
+#: th23-user-management-pro.php:382 th23-user-management-pro.php:494
+msgid "Please visit the user management page for your actions:"
+msgstr "Tag venligst aktion til dette på user management siden:"
+
+#: th23-user-management-pro.php:386
+msgid ""
+"Notification of an administrator requesting approval for your registration "
+"could not be sent due to a server error. Please contact the administrator of "
+"this site"
+msgstr ""
+"Den mail der skal sende til en administrator, for at anmode om en "
+"godkendelse af din registrering, kunne ikke sendes grundet serverfejl. "
+"Kontakt venligst en administrator af hjemmesiden"
+
+#: th23-user-management-pro.php:402
+msgid ""
+"A confirmation will be sent to the given e-mail address. Please click the "
+"link provided in there to validate your e-mail address."
+msgstr ""
+"En bekræftigelse vil blive sendt til den angivet mailadresse. Klik venligst "
+"på linket i denne, for at bekræfte denne."
+
+#: th23-user-management-pro.php:405
+msgid ""
+"New members require approval by an admin. You will only be able to login, "
+"once your registration has been approved."
+msgstr ""
+"Nye brugere kræver godkendelse af administrator. Du kan ikke logge ind før "
+"din konto er godkendt."
+
+#: th23-user-management-pro.php:414 th23-user-management.php:474
+#: th23-user-management.php:1094
+msgid "Password"
+msgstr "Kodeord"
+
+#: th23-user-management-pro.php:418
+msgid "Confirm password"
+msgstr "Bekræft kodeord"
+
+#: th23-user-management-pro.php:422 th23-user-management-pro.php:1231
+#: th23-user-management.php:985
+msgid "Password strength indicator"
+msgstr "Styrken af dit kodeord"
+
+#: th23-user-management-pro.php:455 th23-user-management-pro.php:932
+msgid ""
+"Validation of your e-mail address failed, the given user is invalid - please "
+"try again or contact the site administrator"
+msgstr ""
+"Bekræftigelse af din email fejlede, den angivet bruger eksisterer ikke - "
+"kontakt venligst en administrator"
+
+#: th23-user-management-pro.php:463
+#, php-format
+msgid "Validated by User | %s | Mail link | IP: %s"
+msgstr "Bekræftet af bruger  | %s | Mail link | IP: %s"
+
+#: th23-user-management-pro.php:464
+msgid "Your e-mail address has been validated"
+msgstr "Din emailadresse er blevet bekræftet"
+
+#: th23-user-management-pro.php:469
+msgid "Your e-mail address is already verified"
+msgstr "Din emailadresse er allerede blevet bekræftet"
+
+#: th23-user-management-pro.php:472
+msgid ""
+"Validation of your e-mail address failed, the given validation key is "
+"invalid - please try again or contact the site administrator"
+msgstr ""
+"Bekræftigelse af din emailadresse fejlede, valideringsnøglen er ugyldig - "
+"kontakt venligst en administrator"
+
+#: th23-user-management-pro.php:480
+msgid ""
+"Your registration still requires approval by an admin - you will get a "
+"notification mail once your account is approved and you can log in"
+msgstr ""
+"Din registering mangler stadig godkendelse af en administrator - du vil "
+"modtage en mail så snart din konto er godkendt, derefter kan du logge ind"
+
+#: th23-user-management-pro.php:487
+#, php-format
+msgid ""
+"A user with the following details regsitered on your site \"%s\", validated "
+"his e-mail address and is pending your approval before being able to sign in:"
+msgstr ""
+"En bruger med følgende detaljer har registreret sig på  \"%s\", emailadresse "
+"er bekræftet og afventer din endelig godkendelse for at brugeren kan logge "
+"ind:"
+
+#: th23-user-management-pro.php:498
+msgid ""
+"Notification to an administrator requesting approval for your registration "
+"could not be sent due to a server error. Please contact the administrator of "
+"this site"
+msgstr ""
+"Den mail der skal sende til en administrator, for at anmode om en "
+"godkendelse af din registrering, kunne ikke sendes grundet serverfejl. "
+"Kontakt venligst en administrator af hjemmesiden"
+
+#: th23-user-management-pro.php:516
+msgid ""
+"Your registration is pending validation of your e-mail address - please "
+"click the link in the mail sent to you upon your registration or contact the "
+"site administrator"
+msgstr ""
+"Din registrering mangler stadig en bekræftigelse af emailadressen - klik "
+"venligst på det link der var angivet i mailen, du modtog da du registerede "
+"dig, eller kontakt en administrator af hjemmeside"
+
+#: th23-user-management-pro.php:520
+msgid ""
+"Your registration is pending approval by a site administrator - please wait "
+"to be notified by mail or contact the site administrator"
+msgstr ""
+"Din registrering afventer administratorgodkendelse - vent venligst indtil du "
+"modtager en mail på dette"
+
+#: th23-user-management-pro.php:523
+msgid "Your registration is pending - please contact the site administrator"
+msgstr ""
+"Din registrering er uafklaret. Kontakt venligst en administrator af "
+"hjemmesiden"
+
+#: th23-user-management-pro.php:560
+#, php-format
+msgid "Created by Admin ID: %s | %s | IP: %s"
+msgstr "Oprettet af Admin ID: %s | %s | IP: %s"
+
+#: th23-user-management-pro.php:563
+#, php-format
+msgid "Created by Admin ID: %s | %s | Approval | IP: %s"
+msgstr "Oprettet af Admin ID: %s | %s | Godkendelses | IP: %s"
+
+#: th23-user-management-pro.php:580
+#, php-format
+msgid ""
+"<strong>Attention</strong>: There are new users pending approval not shown "
+"in the list below - please view tab \"<a href=\"%s\">Pending</a>\" to review "
+"these users"
+msgstr ""
+"<strong>OBS</strong>: Der er flere brugere der afventer godkendelse, som "
+"ikke er vist på listen - se venligst fane  \"<a href=\"%s\">Afventer</a>\" "
+"for at gå disse igennem"
+
+#: th23-user-management-pro.php:661
+#, php-format
+msgid "Approved by Admin ID: %s | %s | IP: %s"
+msgstr "Godkendt af Admin ID: %s | %s | IP: %s"
+
+#: th23-user-management-pro.php:666
+#, php-format
+msgid "Approved by Admin ID: %s | %s | Approval | IP: %s"
+msgstr "Godkendt af Admin ID: %s | %s | Godkendelses | IP: %s"
+
+#: th23-user-management-pro.php:670
+#, php-format
+msgid "[%s] Welcome / Ready for login"
+msgstr "[%s] Velkommen / Klar til at logge ind"
+
+#: th23-user-management-pro.php:671
+#, php-format
+msgid ""
+"Welcome once again to %s - your registration has been approved and you can "
+"now login using the following link:"
+msgstr ""
+"Hej igen %s - din registrering er blevet godkendt og du kan starte med at "
+"logge ind ved at følge nedenstående link:"
+
+#: th23-user-management-pro.php:675
+msgid ""
+"Your password: As chosen by you upon registration - in case you can not "
+"remember, use the following link:"
+msgstr ""
+"Dit kodeord: Hvis du skulle glemme det kodeord du valgte under registrering, "
+"kan du benytte følgende link:"
+
+#: th23-user-management-pro.php:678
+msgid ""
+"Your password: As sent in a previous mail - in case you do not have this "
+"anymore, use the following link:"
+msgstr ""
+"Dit kodeord: Har du slettet mailen med kodeordet til login, kan du benytte "
+"følgende link:"
+
+#: th23-user-management-pro.php:690
+#, php-format
+msgid ""
+"<strong>Error</strong>: An error occured, while sending notification to user "
+"with the ID: %s"
+msgstr ""
+"<strong>Fejl</strong>: Der opstod en fejl da der skulle sendes en "
+"notifikation til brugeren med følgende ID: %s"
+
+#: th23-user-management-pro.php:693
+msgid "<strong>Done</strong>: Selected user(s) have been approved"
+msgstr "<strong>Færdig</strong>: Valgte  bruger(e) er blevet godkendt"
+
+#: th23-user-management-pro.php:708
+msgid "Role - Reason"
+msgstr "Rolle - Årsag"
+
+#: th23-user-management-pro.php:711
+msgid "Answer to registration question"
+msgstr "Svar til registreringsspørgsmål"
+
+#: th23-user-management-pro.php:721
+msgid " - Mail validation"
+msgstr "- Email validering"
+
+#: th23-user-management-pro.php:724
+msgid " - Admin approval"
+msgstr " - Administrator godkendelse"
+
+#: th23-user-management-pro.php:737
+msgid "Delete"
+msgstr "Slet"
+
+#: th23-user-management-pro.php:794
+msgid "Action cancelled, no changes have been saved"
+msgstr "Handling annulleret, ingen ændring gemt"
+
+#: th23-user-management-pro.php:809
+msgid "Invalid request - please use the form below to update your profile"
+msgstr ""
+"Ugyldig forespørgsel - brug venligst formen nedenfor, for at opdatere din "
+"profil"
+
+#: th23-user-management-pro.php:857
+msgid "Your profile changes have been saved successfully"
+msgstr "Dine profil-ændringer er gennemført"
+
+#: th23-user-management-pro.php:869
+msgid "Your password has been changed, please login again"
+msgstr "Dit kodeord er blevet ændret, log venligst ind igen"
+
+#: th23-user-management-pro.php:895
+#, php-format
+msgid "[%s] Validate changed e-mail address"
+msgstr "[%s] Bekræft ændret emailadresse"
+
+#: th23-user-management-pro.php:897
+#, php-format
+msgid "You changed the e-mail address for your account on %s."
+msgstr "Du har ændret din emailadresse for din konto hos %s."
+
+#: th23-user-management-pro.php:900
+#, php-format
+msgid "The e-mail address for your account on %s has been changed."
+msgstr "Emailadressen til din konto hos %s er blevet ændret."
+
+#: th23-user-management-pro.php:902
+msgid "Please confirm your new e-mail address by visiting the following link:"
+msgstr ""
+"Bekræft venligst din nye emailadresse ved at klikke på følgende link (Kan du "
+"ikke klikke på linket, kan du kopier det over i din browser):"
+
+#: th23-user-management-pro.php:905
+msgid ""
+"The required verification mail for changing the e-mail address could not be "
+"sent due to a server error. The new address has not been saved, please try "
+"again or contact the administrator of this site"
+msgstr ""
+"Den bekræftigelsesmail der skulle være blevet afsendt, da du ændrede din "
+"emailadresse,  kunne ikke sendes grundet serverfejl. Den nye emailadresse er "
+"ikke blevet gemt. Prøv venligst igen eller kontakt en administrator af "
+"hjemmeside"
+
+#: th23-user-management-pro.php:908
+msgid ""
+"The change of your e-mail address requires confirmation - please check your "
+"new inbox and follow the validation link provided"
+msgstr ""
+"Ændringen af din emailadresse kræver bekræftigelse - tjek venligst din "
+"mailindbakke og følge det angivet link. Modtager du ikke mailen inden 15 "
+"minutter, tjek da din SPAM mappe."
+
+#: th23-user-management-pro.php:940
+msgid ""
+"No pending change of e-mail could be found - please try again the link, try "
+"again to change your e-mail address or contact the site administrator"
+msgstr ""
+"Der kunne ikke findes nogen afventende emailadresse-ændring - prøv venligst "
+"at ændre emailen igen, eller kontakt en administrator af hjemmesiden"
+
+#: th23-user-management-pro.php:948
+msgid ""
+"Update of your e-mail address failed - please try again or contact the site "
+"administrator"
+msgstr ""
+"Opdatering af din emailadresse fejlede - prøv venligst igen eller kontakt en "
+"administrator af hjemmesiden"
+
+#: th23-user-management-pro.php:951
+msgid "Your e-mail address has successfully been changed"
+msgstr "Din emailadresse er blevet ændret"
+
+#: th23-user-management-pro.php:959
+msgid ""
+"Validation of your e-mail address failed, the given validation key is "
+"invalid - please try again the link, try again to change your e-mail address "
+"or contact the site administrator"
+msgstr ""
+"Bekræftigelse af din emailadresse er fejlet, den givende nøgle er forkert. "
+"Prøv venligst at ændre emailadresse igen eller kontakt en administrator af "
+"hjemmesiden"
+
+#: th23-user-management-pro.php:977
+#, php-format
+msgid ""
+"<strong>Attention</strong>: Pending change of your e-mail address requires "
+"confirmation - please check your new inbox \"%s\" and follow the validation "
+"link provided"
+msgstr ""
+"<strong>OBS</strong>: Du har en afventende bekræftigelse på en emailadresse-"
+"ændring. Tjek venligst din mailindbakke  \"%s\"  og følg det angivet link."
+
+#: th23-user-management-pro.php:980
+#, php-format
+msgid ""
+"<strong>Attention</strong>: There is a pending change of e-mail address for "
+"this user - intended new address is \"%s\""
+msgstr ""
+"<strong>OBS</strong>: Denne bruger afventer en emailadresse-ændring - den "
+"forventet nye adresse er  \"%s\""
+
+#: th23-user-management-pro.php:1049 th23-user-management.php:736
+msgid "Invalid request - please use the form below to register"
+msgstr "Ugyldig forespørgsel - brug venligst formen for at registrere"
+
+#: th23-user-management-pro.php:1059
+msgid "Enter a username or e-mail address"
+msgstr "Angiv brugernavn eller emailadrese"
+
+#: th23-user-management-pro.php:1065
+msgid "There is no user registered with that e-mail"
+msgstr "Emailadresse findes ikke"
+
+#: th23-user-management-pro.php:1071
+msgid "There is no user registered with that username"
+msgstr "Brugernavn findes ikke"
+
+#: th23-user-management-pro.php:1078
+msgid "Password reset is not possible for this user"
+msgstr "Det er ikke muligt at nulstille kodeord for dette brugernavn"
+
+#: th23-user-management-pro.php:1089
+#, php-format
+msgid "[%s] Reset password"
+msgstr "[%s] Nulstil kodeord"
+
+#: th23-user-management-pro.php:1090
+#, php-format
+msgid "Someone requested the password to be reset for your account on %s."
+msgstr "Nogen har bedt om at få nulstillet kodeordet for din konto hos %s."
+
+#: th23-user-management-pro.php:1092
+msgid "If this is a mistake, just ignore this email and nothing will happen."
+msgstr "Hvis dette er en fejl kan du ignorere denne mail - intet vil ske."
+
+#: th23-user-management-pro.php:1093
+msgid "To reset your password, please visit the following address:"
+msgstr "For at nulstille dit kodeord skal du benytte følgende link:"
+
+#: th23-user-management-pro.php:1096
+msgid ""
+"The e-mail to reset your password could not be sent due to a server error. "
+"Please try again - if the error persists contact the administrator of this "
+"site"
+msgstr ""
+"Den email der skulle sendes for at nulstille dit kodeord, kunne ikke sendes "
+"grundet serverfejl.  Prøv venligst igen eller kontakt en administrator af "
+"hjemmesiden"
+
+#: th23-user-management-pro.php:1099
+msgid ""
+"The reset of your password has been initiated successfully - please check "
+"your inbox and follow the link provided"
+msgstr ""
+"En nulstilling er dit kodeord er påbegyndt. Tjek venligst din mailindbakke "
+"og følg det angivet link. Kommer mailen ikke inden 15 minutter, tjek da din "
+"SPAM mappe"
+
+#: th23-user-management-pro.php:1123
+msgid ""
+"Resetting your password failed, the given user is invalid - please try again "
+"or contact the site administrator"
+msgstr ""
+"Nulstilling af dit kodeord fejlede, den angivet bruger er ugyldig. Prøv "
+"venligst igen eller kontakt en administrator af hjemmesiden"
+
+#: th23-user-management-pro.php:1136
+msgid ""
+"Resetting your password failed, the verification key is invalid - please try "
+"again or contact the site administrator"
+msgstr ""
+"Nulstilling af dit kodeord fejlede, valideringsnøglen er ugyldig. Prøv "
+"venligst igen eller kontakt en administrator af hjemmesiden"
+
+#: th23-user-management-pro.php:1149
+msgid "Invalid request - please use the form below to reset your password"
+msgstr "Ugyldig"
+
+#: th23-user-management-pro.php:1158
+msgid "Your password has been changed - please login using your new password"
+msgstr "Dit kodeord er blevet ændret - du kan nu logge ind med det nye kodeord"
+
+#: th23-user-management-pro.php:1180
+msgid "Lost Password"
+msgstr "Glemte kodeord"
+
+#: th23-user-management-pro.php:1182
+msgid ""
+"Please fill out the form below. You can enter your username or email "
+"address. You will receive a link to create a new password via email."
+msgstr ""
+"Udfyld venligst felterne nedenfor. Du kan angive enten brugernavn eller "
+"email. Du vil modtage et link for at oprette nyt kodeord i din email."
+
+#: th23-user-management-pro.php:1185
+msgid "Username or e-mail"
+msgstr "Brugernavn eller email"
+
+#: th23-user-management-pro.php:1191
+msgid "Get New Password"
+msgstr "Få nyt kodeord"
+
+#: th23-user-management-pro.php:1196 th23-user-management-pro.php:1243
+#: th23-user-management.php:482 th23-user-management.php:843
+#: th23-user-management.php:1096 th23-user-management.php:1101
+msgid "Log in"
+msgstr "Log ind"
+
+#: th23-user-management-pro.php:1198 th23-user-management-pro.php:1245
+#: th23-user-management.php:492 th23-user-management.php:833
+#: th23-user-management.php:1104
+msgid "Register"
+msgstr "Registrer"
+
+#: th23-user-management-pro.php:1200 th23-user-management-pro.php:1247
+msgid "Trouble upon password reset?"
+msgstr "Problemer med at nulstille kodeord?"
+
+#: th23-user-management-pro.php:1218 th23-user-management-pro.php:1235
+msgid "Reset Password"
+msgstr "Nulstil kodeord"
+
+#: th23-user-management-pro.php:1220
+msgid "Please enter a new password for your account."
+msgstr "Angiv venligst et kodeord til din konto."
+
+#: th23-user-management-pro.php:1223 th23-user-management.php:977
+msgid "New password"
+msgstr "Nyt kodeord"
+
+#: th23-user-management-pro.php:1227 th23-user-management.php:981
+msgid "Confirm new password"
+msgstr "Bekræft nyt kodeord"
+
+#: th23-user-management.php:242 th23-user-management.php:967
+msgid "Info"
+msgstr "Info"
+
+#: th23-user-management.php:254 th23-user-management.php:1070
+msgid "Edit profile"
+msgstr "Rediger profil"
+
+#: th23-user-management.php:402
+msgid "Invalid request - please use the form below to login"
+msgstr "Ugyldig forespørgsel - brug venligst formen nedenfor, for at logge ind"
+
+#: th23-user-management.php:417
+msgid ""
+"Cookies are blocked or not supported by your browser. You must <a href="
+"\"http://en.wikipedia.org/wiki/HTTP_cookie\">enable cookies</a> to login on "
+"this site"
+msgstr ""
+"Cookies er blokeret eller er ikke understøttet af din browser. Du skal <a "
+"href=\"http://en.wikipedia.org/wiki/HTTP_cookie\">tillade cookies</a> til "
+"denne hjemmeside"
+
+#: th23-user-management.php:435
+msgid "Enter a username"
+msgstr "Angiv brugernavn"
+
+#: th23-user-management.php:438
+msgid "The username you entered is invalid"
+msgstr "Brugernavnet er ikke gyldigt"
+
+#: th23-user-management.php:441
+msgid "Enter your password"
+msgstr "Angiv kodeord"
+
+#: th23-user-management.php:444
+msgid "The password you entered is incorrect"
+msgstr "Kodeordet er forkert"
+
+#: th23-user-management.php:464 th23-user-management.php:1085
+msgid "Login"
+msgstr "Login"
+
+#: th23-user-management.php:466
+msgid "Please login, to have full access to this site."
+msgstr "Log venligst ind for fuldt udbytte af denne hjemmeside."
+
+#: th23-user-management.php:469 th23-user-management.php:818
+#: th23-user-management.php:910
+msgid "Username"
+msgstr "Brugernavn"
+
+#: th23-user-management.php:478 th23-user-management.php:1096
+msgid "Remember me"
+msgstr "Husk mig"
+
+#: th23-user-management.php:494 th23-user-management.php:844
+#: th23-user-management.php:1106
+msgid "Lost your password?"
+msgstr "Glemt kodeord?"
+
+#: th23-user-management.php:495
+msgid "Trouble upon login?"
+msgstr "Problemer med at logge ind?"
+
+#: th23-user-management.php:514 th23-user-management.php:840
+#: th23-user-management.php:1029
+msgid "ERROR"
+msgstr "FEJL"
+
+#: th23-user-management.php:515
+msgid ""
+"Cookies are blocked or not supported by your browser. You must <a href="
+"\"http://wikipedia.org/wiki/HTTP_cookie\">enable cookies</a> to login on "
+"this site"
+msgstr ""
+"Du har blokeret for cookies eller cookies er ikke understøttet af din "
+"browser. Du skal <a href=\"http://wikipedia.org/wiki/HTTP_cookie\">tillade "
+"cookies</a> for at logge ind på denne her hjemmeside."
+
+#: th23-user-management.php:521 th23-user-management.php:528
+#, php-format
+msgid "Welcome %s"
+msgstr "Velkommen %s"
+
+#: th23-user-management.php:522
+#, php-format
+msgid ""
+"You have been logged in successfully, but you have not changed your initial "
+"password yet - please visit <a href=\"%s\">your profile</a> to do so"
+msgstr ""
+"Du er logget ind, men du har ikke skiftet det password, som du fik da du "
+"oprettede dig. Gå venligst til din <a href=\"%s\">your profile</a> og skift "
+"det"
+
+#: th23-user-management.php:529
+msgid "You have been logged in successfully"
+msgstr "Du er logget ind"
+
+#: th23-user-management.php:560
+msgid "You are required to re-authenticate, please login again"
+msgstr "Det er krævet at du re-bekræfter dig - log venligst ind igen"
+
+#: th23-user-management.php:617
+msgid "INFO"
+msgstr "Info"
+
+#: th23-user-management.php:618
+msgid "You have been logged out successfully - hope to see you soon again"
+msgstr "Du er nu logget ud - håber snart at se dig igen"
+
+#: th23-user-management.php:648
+msgid "All cookies have been cleared - please login again"
+msgstr "Alle cookies er blevet slettet - log venligst ind igen"
+
+#: th23-user-management.php:666
+msgid "Troubleshooting"
+msgstr "Fejlfinding"
+
+#: th23-user-management.php:668
+msgid ""
+"This website is relying on cookies stored on your computer to remember who "
+"is logged in."
+msgstr ""
+"Denne hjemmeside er afhængig af at cookies bliver gemt på din computer, for "
+"at huske hvem der er logget ind."
+
+#: th23-user-management.php:668
+msgid ""
+"Unfortunately there might be occasions, when this memory can get confused, e."
+"g. upon logins from different computers under certain circumstances. This "
+"might result in trouble logging in or the submission of information being "
+"denied with an &quot;invalid request&quot; error."
+msgstr ""
+"Desværre kan det ske at hukommelsen i computeren husker forkert eller bliver "
+"forvirret. Det kan ske ved forskellige logins bestemte omstændigheder. Dette "
+"kan resultere i login-problemer eller i registrering af at information "
+"bliver nægtet adgang med et &quot;invalid request&quot; error."
+
+#: th23-user-management.php:668
+msgid ""
+"To fix this, simply clear all cookies from this site out of your browser by "
+"using the button below and log in again afterwards:"
+msgstr ""
+"For at fikse dette, skal du slette alle cookies tilhørende denne hjemmeside, "
+"med knappe nedenfor - log ind igen bagefter:"
+
+#: th23-user-management.php:671
+msgid "Delete cookies"
+msgstr "Slet cookies"
+
+#: th23-user-management.php:707
+msgid "Please enter your e-mail address"
+msgstr "Angiv venligst din emailadresse"
+
+#: th23-user-management.php:711
+msgid "This e-mail address is invalid, please enter your valid e-mail address"
+msgstr "Emailadressen er ikke gyldig. Angiv venligst en gyldig emailadresse"
+
+#: th23-user-management.php:715
+msgid "This e-mail address is already registered, please provide another one"
+msgstr "Denne emailadresse er allerede registreret, angiv venligst en anden"
+
+#: th23-user-management.php:742
+msgid "Please enter a username"
+msgstr "Angiv venligst et brugernavn"
+
+#: th23-user-management.php:745
+msgid ""
+"This username is invalid as it contains not allowed characters, please use "
+"another one"
+msgstr ""
+"Brugernavnet er ikke tilladt eller indeholder tegn der ikke er accepteret, "
+"vælg venligst et andet"
+
+#: th23-user-management.php:748
+msgid "This username is already registered, please choose another one"
+msgstr "Brugernavnet er optaget, vælg venligst et andet"
+
+#: th23-user-management.php:769
+msgid ""
+"You could not be registered due to a server error. Please try again - if the "
+"error persists contact the administrator of this site"
+msgstr ""
+"Beklager. Du kunne ikke registreres grundet en serverfejl. Prøv venligst "
+"ingen - hvis fejlen forbliver kontakt da en administrator af hjemmesiden"
+
+#: th23-user-management.php:785
+msgid ""
+"You can now login using your username and passwort above. Therefore please "
+"visit the following address:"
+msgstr ""
+"Du kan nu logge ind med ovenstående brugernavn og kodeord. Benyt evt. "
+"nedenstående link:"
+
+#: th23-user-management.php:788
+msgid ""
+"You have been registered, but the required mail could not be sent due to a "
+"server error. Please contact the administrator of this site"
+msgstr ""
+"Du er registeret, men en bekræftigelsesmail kunne ikke sendes grundet "
+"serverfejl. Kontakt venligst en administrator af hjemmesiden"
+
+#: th23-user-management.php:791
+msgid ""
+"You have been registered successfully - please check your inbox for initial "
+"password to login using the form below"
+msgstr ""
+"Din registrering er gennemført - tjek venligst din mailindbakke for dit "
+"kodeord, så du kan logge ind (hvis ikke mailen kommer inden 15 minutter, "
+"tjek venligst din SPAM mappe)."
+
+#: th23-user-management.php:814
+msgid "Please fill out the fields below to register."
+msgstr "Udfyld venligst felterne nedenfor, for at registrere."
+
+#: th23-user-management.php:815
+msgid "An initial password will be sent to the given e-mail address."
+msgstr "Et tilfældigt genereret kodeord er sendt til den angivet emailadresse."
+
+#: th23-user-management.php:826
+msgid "E-mail"
+msgstr "Email"
+
+#: th23-user-management.php:840
+msgid "User registration is currently not allowed"
+msgstr "Brugerregistrering ikke pt. ikke tilladt"
+
+#: th23-user-management.php:845
+msgid "Trouble registering?"
+msgstr "Problem med registrering?"
+
+#: th23-user-management.php:875
+msgid "Invalid request - please use the form below for any actions"
+msgstr "Ugyldig forespørgsel - brug venligst formen nedenfor"
+
+#: th23-user-management.php:881
+msgid ""
+"You have been logged out of all other sessions - except the one on this "
+"browser"
+msgstr "Du er logget ud af alle andre sessioner pånær denne her"
+
+#: th23-user-management.php:882
+msgid ""
+"In case you did any changes on your profile below, these have not yet been "
+"saved - please do so via the buttons at the bottom"
+msgstr ""
+"I tilfælde af du har ændret din profil nedenfor, er disse ændringer ikke "
+"gemt - gem venligst med knappen nedenfor"
+
+#: th23-user-management.php:898
+msgid "Your Profile"
+msgstr "Din profil"
+
+#: th23-user-management.php:906
+msgid "Modify your profile and settings for this page below."
+msgstr "Modificer din profil og indstillinger, for denne side, nedenfor."
+
+#: th23-user-management.php:908
+msgid "Name"
+msgstr "Navn"
+
+#: th23-user-management.php:911
+msgid "Can not be changed"
+msgstr "Kan ikke ændres"
+
+#: th23-user-management.php:914
+msgid "First Name"
+msgstr "Fornavn"
+
+#: th23-user-management.php:918
+msgid "Last Name"
+msgstr "Efternavn"
+
+#: th23-user-management.php:922
+msgid "Nickname"
+msgstr "Brugernavn"
+
+#: th23-user-management.php:923
+msgid "Required"
+msgstr "Krævet"
+
+#: th23-user-management.php:926
+msgid "Display Name"
+msgstr "Vist navn"
+
+#: th23-user-management.php:948
+msgid "Contact"
+msgstr "Kontakt"
+
+#: th23-user-management.php:950
+msgid "E-Mail"
+msgstr "Email"
+
+#: th23-user-management.php:951
+msgid "Required, change needs to be confirmed"
+msgstr "Krævet, ændringer skal bekræftes"
+
+#: th23-user-management.php:954
+#, php-format
+msgid ""
+"<strong>Note</strong>: The change of your e-mail to <code>%s</code> is "
+"pending - please check your new e-mail inbox for validation"
+msgstr ""
+"<strong>Note</strong>: Ændringen af din email adresse til <code>%s</code> "
+"afventer - tjek venligst din mailindbakke for en bekræftigelse"
+
+#: th23-user-management.php:958
+msgid "Website"
+msgstr "Hjemmeside"
+
+#: th23-user-management.php:970
+msgid "Biographical Info"
+msgstr "Biografi"
+
+#: th23-user-management.php:972
+msgid "Information about yourself provided here might be shown publicly"
+msgstr "Information angivet om dig selv her, kan blive fremvist offentlig"
+
+#: th23-user-management.php:978
+msgid "Leave empty, if you do NOT want to change your password"
+msgstr "Efterlad blankt, hvis ikke du vil ændre kodeord"
+
+#: th23-user-management.php:992 th23-user-management.php:996
+msgid "Log Out of All Other Sessions"
+msgstr "Log ud af alle sessioner"
+
+#: th23-user-management.php:993
+msgid ""
+"Left your account logged in at a public computer? Lost your phone? This will "
+"log you out everywhere except your current browser."
+msgstr ""
+"Glemte at logge ud på en offentlig computer? Tabt din mobil? Dette vil logge "
+"dig ud overalt, undtagen din nuværende browser."
+
+#: th23-user-management.php:997
+msgid "You are only logged in at this location."
+msgstr "Du er kun logget ind på denne lokation"
+
+#: th23-user-management.php:1005
+msgid "Show Admin Bar"
+msgstr "Vis admin bar"
+
+#: th23-user-management.php:1012
+msgid "when viewing site"
+msgstr "når siden fremvises"
+
+#: th23-user-management.php:1017
+msgid "Save"
+msgstr "Gem"
+
+#: th23-user-management.php:1018
+msgid "Cancel"
+msgstr "Annuller"
+
+#: th23-user-management.php:1022
+msgid "Note"
+msgstr "Note"
+
+#: th23-user-management.php:1022
+#, php-format
+msgid ""
+"To edit your profile please visit the %sProfile section in the admin area%s"
+msgstr ""
+"For at ændre din profil - gå hen til %sProfile section in the admin area%s"
+
+#: th23-user-management.php:1029
+msgid "You are not allowed to edit your profile"
+msgstr "Du har ikke tilladelse til at ændre din profil"
+
+#: th23-user-management.php:1047
+msgid "Displays registration, login, logout and user management options"
+msgstr "Viser registrering, log ind, log ud og profil valg"
+
+#: th23-user-management.php:1074
+msgid "Dashboard"
+msgstr "Kontrolpanel"
+
+#: th23-user-management.php:1076
+msgid "Write post"
+msgstr "Opret indlæg"
+
+#: th23-user-management.php:1079
+msgid "Log out"
+msgstr "Log ud"
+
+#: th23-user-management.php:1093
+msgid "User"
+msgstr "Bruger"
+
+#: th23-user-management.php:1107
+msgid "Trouble?"
+msgstr "Problemer?"
